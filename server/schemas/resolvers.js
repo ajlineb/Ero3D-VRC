@@ -26,6 +26,17 @@ const resolver = {
     },
     login: async (parent, { email, password }) => {
       const profile = await Profile.findOne({ email });
+
+      if (!profile) {
+        throw new AuthenticationError("Email or password is incorrect.");
+      }
+      const correctPw = await profile.isCorrectPassword(password);
+
+      if (!correctPw) {
+        throw new AuthenticationError("Email or password is incorrect.");
+      }
+      const token = signToken(profile);
+      return { token, profile };
     },
     removeProfile: async (parent, args, context) => {
       if (context.user) {
