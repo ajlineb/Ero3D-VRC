@@ -17,6 +17,7 @@ import "./App.css";
 
 //import components
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 //pages to import
 import Home from "./Pages/Home";
@@ -52,6 +53,7 @@ const App = () => {
       <Router basename="/ero3dHome">
         <Route exact path="/" element={<Home />}></Route>
       </Router>
+      <Footer />
     </>
   );
 };
