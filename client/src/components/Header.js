@@ -1,18 +1,20 @@
 import React from "react";
 
-import NavBar from "./NavBar";
+import Login from "./Login";
+import NavBar from "./Navbar";
 import { Columns } from "react-bulma-components";
 
 export default function Header() {
   return (
     <Columns className="header">
-      <Columns.Column className="is-half">
-        {" "}
+      <Columns.Column className="is-one-fifth">
         <h1 className="title">ERO 3D VRC</h1>
       </Columns.Column>
-      <Columns.Column className="is-offset-5">
-        {" "}
+      <Columns.Column>
         <NavBar />
+      </Columns.Column>
+      <Columns.Column className="">
+        <Login />
       </Columns.Column>
     </Columns>
   );
