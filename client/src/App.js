@@ -53,7 +53,6 @@ const App = () => {
       <Routes>
         <Route exact path="/home" element={<Home />}></Route>
       </Routes>
-
       <Footer />
     </Router>
   );

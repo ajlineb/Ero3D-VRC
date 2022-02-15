@@ -6,7 +6,10 @@ export default function Footer() {
       <div>
         <p className="closing">
           Created By Anthony Linebaugh with ❤️{" "}
-          <a href="https://github.com/ajlineb/React-Portfolio"> Source Code</a>
+          <a href="https://github.com/ajlineb/ero3d-vrc">
+            {" "}
+            <span className="source-code">Source Code</span>
+          </a>
         </p>
         <p className="closing">© 2022 </p>
       </div>

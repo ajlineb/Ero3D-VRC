@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Columns } from "react-bulma-components";
 import { Link } from "react-router-dom";
 
 function NavBar() {
@@ -23,24 +22,26 @@ function NavBar() {
 
   const path = window.location.pathname.split("/");
   return (
-    <nav className="navs">
-      {tabs.map((tab) => (
-        <p>
-          <Link
-            to={tab}
-            key={tab.id}
-            active={active === tab}
-            onClick={() => {
-              setActive(tab);
-            }}
-            className={
-              path[2] === tab ? "tabs nav-item tab-active " : "tabs nav-item"
-            }
-          >
-            {handleTab(tab)}
-          </Link>
-        </p>
-      ))}
+    <nav>
+      <ul className="navs">
+        {tabs.map((tab) => (
+          <li>
+            <Link
+              to={tab}
+              key={tab.id}
+              active={active === tab}
+              onClick={() => {
+                setActive(tab);
+              }}
+              className={
+                path[2] === tab ? "tabs nav-item tab-active " : "tabs nav-item"
+              }
+            >
+              {handleTab(tab)}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </nav>
   );
 }
