@@ -14,6 +14,7 @@ import {
 } from "react-router-dom";
 import "bulma/css/bulma.min.css";
 import "./App.css";
+import Home from "./Pages/Home";
 
 //Graphql api endpoint
 const httpLink = createHttpLink({
@@ -41,11 +42,12 @@ const client = new ApolloClient({
 
 const App = () => {
   return (
-    <ApolloProvider client={client} forceRefresh={true}>
+    <>
+      <Home />
       <Router basename="/ero3dHome">
-        <Route exact path="/"></Route>
+        <Route exact path="/" element={<Home />}></Route>
       </Router>
-    </ApolloProvider>
+    </>
   );
 };
 

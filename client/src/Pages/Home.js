@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Columns } from "react-bulma-components";
-import { Link } from "react-router-dom";
 
-function Navigation() {
+export default function Home() {
   return (
     <div>
       <Columns>
@@ -14,5 +13,3 @@ function Navigation() {
     </div>
   );
 }
-
-export default Navigation;
