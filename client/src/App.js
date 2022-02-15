@@ -14,6 +14,11 @@ import {
 } from "react-router-dom";
 import "bulma/css/bulma.min.css";
 import "./App.css";
+
+//import components
+import Header from "./components/Header";
+
+//pages to import
 import Home from "./Pages/Home";
 
 //Graphql api endpoint
@@ -43,7 +48,7 @@ const client = new ApolloClient({
 const App = () => {
   return (
     <>
-      <Home />
+      <Header />
       <Router basename="/ero3dHome">
         <Route exact path="/" element={<Home />}></Route>
       </Router>
