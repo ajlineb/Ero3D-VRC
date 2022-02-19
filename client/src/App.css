@@ -19,7 +19,7 @@ a {
 
 .header {
   background-color: var(--main-header-footer-color);
-  transition: background-color 350ms;
+  transition: background-color 550ms;
   padding: 0.5rem 1rem 0 1rem;
   padding-bottom: 1rem;
   position: fixed;
@@ -66,4 +66,16 @@ a {
 }
 .source-code:hover {
   color: rgb(241, 174, 86);
+}
+
+@media screen and (max-width: 1600px) {
+  .content {
+    padding-top: 15rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .content {
+    padding-top: 25rem;
+  }
 }
