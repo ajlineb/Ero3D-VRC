@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function NavBar() {
@@ -21,6 +21,7 @@ function NavBar() {
   }
 
   const path = window.location.pathname.split("/");
+
   return (
     <nav>
       <ul className="navs">

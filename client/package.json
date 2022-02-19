@@ -9,7 +9,6 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "bulma": "^0.9.3",
     "jwt-decode": "^3.1.2",
     "react": "^17.0.2",
     "react-bulma-components": "^4.1.0",
@@ -22,7 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "css-build": "node-sass --omit-source-map-url src/mystyles.scss src/mystyles.css"
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +41,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "bulma": "^0.9.3",
+    "node-sass": "^7.0.1"
   }
 }
