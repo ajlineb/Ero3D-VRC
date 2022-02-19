@@ -5,16 +5,16 @@ import NavBar from "./Navbar";
 import { Columns } from "react-bulma-components";
 
 export default function Header() {
-  const [transparent, setTransParent] = useState("");
+  const [transparent, setTransParent] = useState("transparent");
 
   //checks window if scrolled down for nav bar
   function handleScroll() {
     let posY = window.scrollY;
     if (posY > 0) {
-      setTransParent("is-black");
+      setTransParent("");
       console.log(transparent);
     } else {
-      setTransParent("");
+      setTransParent("transparent");
       console.log(transparent);
     }
   }
