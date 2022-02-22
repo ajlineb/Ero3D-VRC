@@ -23,30 +23,23 @@ function NavBar() {
   const path = window.location.pathname.split("/");
 
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
-      <ul className="navs navbar-item has-dropdown is-hoverable">
-        <h1 className="title">Menu</h1>
-        <div className="navbar-dropdown">
-          {tabs.map((tab) => (
-            <li>
-              <Link
-                to={tab}
-                key={tab.id}
-                active={active === tab}
-                onClick={() => {
-                  setActive(tab);
-                }}
-                className={
-                  path[2] === tab
-                    ? "tabs tab-active navbar-item "
-                    : "tabs navbar-item"
-                }
-              >
-                {handleTab(tab)}
-              </Link>
-            </li>
-          ))}
-        </div>
+    <nav>
+      <ul className="">
+        {tabs.map((tab) => (
+          <li className="navs">
+            <Link
+              to={tab}
+              key={tab.id}
+              active={active === tab}
+              onClick={() => {
+                setActive(tab);
+              }}
+              className={path[2] === tab ? "tab-active " : ""}
+            >
+              {handleTab(tab)}
+            </Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );

@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 
 import Login from "./Login";
 import NavBar from "./Navbar";
-import { Columns } from "react-bulma-components";
+//import { Columns } from "react-bulma-components";
 
 export default function Header() {
-  const [transparent, setTransParent] = useState("transparent");
+  const [transparent, setTransParent] = useState("transparent"); //for a scrolling animation for the header container
 
   //checks window if scrolled down for nav bar
   function handleScroll() {
@@ -24,16 +24,16 @@ export default function Header() {
   });
 
   return (
-    <Columns className={`header ${transparent}`}>
-      <Columns.Column className="is-one-fifth">
+    <div className={`header flex flex-row flex-wrap  ${transparent}`}>
+      <div className=" basis-1/4">
         <h1 className="title">ERO 3D VRC</h1>
-      </Columns.Column>
-      <Columns.Column>
+      </div>
+      <div className=" overflow-hidden basis-1/2">
         <NavBar />
-      </Columns.Column>
-      <Columns.Column className="">
+      </div>
+      <div className=" basis-1/4">
         <Login />
-      </Columns.Column>
-    </Columns>
+      </div>
+    </div>
   );
 }

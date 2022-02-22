@@ -23,7 +23,12 @@ a {
   padding: 0.5rem 1rem 0 1rem;
   padding-bottom: 1rem;
   position: fixed;
-  width: 100vw;
+  width: 100%;
+  z-index: 10;
+}
+
+.header nav {
+  text-align: center;
 }
 
 .transparent {
@@ -34,6 +39,7 @@ a {
 .title {
   font-size: 2rem;
   color: white;
+  min-width: fit-content;
 }
 
 .hover {
@@ -45,19 +51,19 @@ a {
   border-radius: 1rem;
 }
 
-.navs li {
+.navs {
   display: inline-block;
+  padding: 0 2rem 0 2rem;
+  font-size: 2rem;
 }
 
 .navs a {
-  margin: 0rem 2rem 0 2rem;
-  font-size: 1.8rem;
-  display: flex;
+  padding: 0.5rem;
 }
 
 .tab-active {
-  background-color: rgb(38, 38, 58);
-  border-radius: 1rem;
+  background-color: rgb(65, 65, 97);
+  border-radius: 20%;
 }
 
 .signin {
@@ -67,6 +73,7 @@ a {
 .content {
   height: 100vh;
   padding: 5rem;
+  text-align: center;
 }
 
 .footer {
@@ -82,14 +89,17 @@ a {
   color: rgb(241, 174, 86);
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1300px) {
   .content {
-    padding-top: 15rem;
+    padding-top: 10rem;
   }
 }
 
 @media screen and (max-width: 650px) {
   .content {
-    padding-top: 25rem;
+    padding-top: 10rem;
+  }
+  .navs {
+    font-size: 1rem;
   }
 }
