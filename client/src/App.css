@@ -77,6 +77,24 @@ a {
   color: white;
 }
 
+.leftInfo {
+  border-radius: 1rem;
+  background-color: var(--main-header-footer-color);
+  padding: 1rem;
+}
+
+.centerInfo {
+  border-radius: 1rem;
+  background-color: var(--main-header-footer-color);
+  padding: 1rem;
+}
+
+.rightInfo {
+  border-radius: 1rem;
+  background-color: var(--main-header-footer-color);
+  padding: 1rem;
+}
+
 .subtitle {
   font-size: 1.5rem;
   padding-bottom: 1rem;
@@ -84,9 +102,7 @@ a {
 }
 
 .collage {
-  padding: 1rem;
-  border-radius: 1rem;
-  background-color: var(--main-header-footer-color);
+  padding: 1rem 0 1rem 0;
 }
 
 .collage img {
