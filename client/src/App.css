@@ -71,9 +71,26 @@ a {
 }
 
 .content {
-  height: 100vh;
+  height: 100%;
   padding: 5rem;
   text-align: center;
+  color: white;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  font-weight: 900;
+}
+
+.collage {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--main-header-footer-color);
+}
+
+.collage img {
+  border-radius: 1rem;
 }
 
 .footer {
@@ -89,7 +106,7 @@ a {
   color: rgb(241, 174, 86);
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1500px) {
   .content {
     padding-top: 10rem;
   }

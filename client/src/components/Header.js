@@ -12,10 +12,8 @@ export default function Header() {
     let posY = window.scrollY;
     if (posY > 0) {
       setTransParent("");
-      console.log(transparent);
     } else {
       setTransParent("transparent");
-      console.log(transparent);
     }
   }
   //used to create a listener on scroll

@@ -12,7 +12,6 @@ import {
   Routes,
   Navigate,
 } from "react-router-dom";
-import "bulma/css/bulma.min.css";
 import "./App.css";
 
 //import components

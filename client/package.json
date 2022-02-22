@@ -21,8 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "css-build": "node-sass --omit-source-map-url src/mystyles.scss src/mystyles.css"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -44,7 +43,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
-    "bulma": "^0.9.3",
     "node-sass": "^7.0.1",
     "postcss": "^8.4.6",
     "tailwindcss": "^3.0.23"
