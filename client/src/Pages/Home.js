@@ -14,10 +14,12 @@ export default function Home() {
           Here I will be placing future projects that I am working on for users
           that want a time frame on when they can start asking for commisions.
         </p>
+        <br />
         <p>
           Here I will be placing future projects that I am working on for users
           that want a time frame on when they can start asking for commisions.
         </p>
+        <br />
         <p>
           Here I will be placing future projects that I am working on for users
           that want a time frame on when they can start asking for commisions.

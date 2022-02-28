@@ -34,6 +34,35 @@ export default function Collections() {
           Explain on what prices can be expected based on the type of work being
           done
         </p>
+        <br />
+        <div className="flex justify-center">
+          <table className="border-collapse border border-slate-100 table-auto ">
+            <thead>
+              <tr>
+                <th className="border border-slate-500 p-1">Work Type</th>
+                <th className="border border-slate-500 p-2">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border border-slate-700 p-2">Texture Work</td>
+                <td class="border border-slate-700 p-1">$0.00</td>
+              </tr>
+              <tr>
+                <td class="border border-slate-700 p-2">
+                  Avatar Physical Changes
+                </td>
+                <td class="border border-slate-700 p-1">$0.00</td>
+              </tr>
+              <tr>
+                <td class="border border-slate-700 p-2">
+                  Blend Shapes/Shape keys
+                </td>
+                <td class="border border-slate-700 p-1">$0.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );
