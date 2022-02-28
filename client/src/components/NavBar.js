@@ -37,7 +37,7 @@ function NavBar() {
               className={
                 path[2] === tab
                   ? "bg-teal-500 shadow-lg shadow-teal-500/50 rounded p-1"
-                  : ""
+                  : "p-1"
               }
             >
               {handleTab(tab)}

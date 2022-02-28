@@ -128,7 +128,7 @@ a {
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 950px) {
   .content {
     padding-top: 10rem;
   }
