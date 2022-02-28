@@ -20,6 +20,9 @@ import Footer from "./components/Footer";
 
 //pages to import
 import Home from "./Pages/Home";
+import Collections from "./Pages/Collections";
+import Friends from "./Pages/Friends";
+import Tips from "./Pages/Tips";
 
 //Graphql api endpoint
 const httpLink = createHttpLink({
@@ -51,6 +54,9 @@ const App = () => {
       <Header />
       <Routes>
         <Route exact path="/home" element={<Home />}></Route>
+        <Route exact path="/collections" element={<Collections />}></Route>
+        <Route exact path="/friends" element={<Friends />}></Route>
+        <Route exact path="/tips" element={<Tips />}></Route>
       </Routes>
       <Footer />
     </Router>

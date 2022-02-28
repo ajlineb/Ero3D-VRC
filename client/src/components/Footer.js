@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="footer">
       <div>
         <p className="closing">
-          Created By Anthony Linebaugh with ❤️{" "}
+          Created By "EroForce" with ❤️{" "}
           <a href="https://github.com/ajlineb/ero3d-vrc">
             {" "}
             <span className="source-code">Source Code</span>
