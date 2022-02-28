@@ -23,6 +23,12 @@ export default function Tips() {
       <div className="rightInfo container">
         <h2 className="subtitle">Are you a friend yet?</h2>
         <p>Lets get to know each other!</p>
+        <br />
+        <p>
+          List out neat things about myself, how long I have been working on
+          avatars and playing on vrc. Maybe mention my ability to develop
+          websites!
+        </p>
       </div>
     </div>
   );

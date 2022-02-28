@@ -15,11 +15,14 @@ export default function Collections() {
           image and discription of what all I did. Include some struggles and
           accomplishments?
         </p>
+        <br />
         <p>
           Name of Avatar:<br></br> Image of Avatar: <br></br>Modifications:
           <br></br>
           Struggles/accomplishments: <br></br>Base Used: ?
         </p>
+        <br />
+        <p>needs to be .mapped through a json from a fetch or manual list</p>
       </div>
       <div className="centerInfo container">
         <h2 className="subtitle">Base Models Used</h2>

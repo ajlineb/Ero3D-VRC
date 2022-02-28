@@ -36,7 +36,7 @@ function NavBar() {
               }}
               className={
                 path[2] === tab
-                  ? "bg-teal-500 shadow-lg shadow-teal-500/50 rounded p-1"
+                  ? "bg-teal-500 shadow-lg shadow-teal-500/50 rounded p-1 hover:bg-indigo-500 hover:shadow-indigo-500/50 duration-300"
                   : "p-1"
               }
             >
