@@ -9,39 +9,31 @@ export default function Collections() {
   return (
     <div className="content grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8 font-mono">
       <div className="leftInfo container">
-        <h2 className="subtitle">List of Future/To come projects</h2>
+        <h2 className="subtitle">List of my Avatars</h2>
         <p>
-          Here I will be placing future projects that I am working on for users
-          that want a time frame on when they can start asking for commisions.
+          Here I will be placing an avatar I have created, modified, with an
+          image and discription of what all I did. Include some struggles and
+          accomplishments?
         </p>
         <p>
-          Here I will be placing future projects that I am working on for users
-          that want a time frame on when they can start asking for commisions.
-        </p>
-        <p>
-          Here I will be placing future projects that I am working on for users
-          that want a time frame on when they can start asking for commisions.
+          Name of Avatar:<br></br> Image of Avatar: <br></br>Modifications:
+          <br></br>
+          Struggles/accomplishments: <br></br>Base Used: ?
         </p>
       </div>
       <div className="centerInfo container">
-        <h2 className="subtitle">Collage of Images</h2>
-        {data.map((d) => {
-          return (
-            <div id={d.id} className="collage">
-              <h4>{d.name}</h4>
-              <img src={d.src} alt={d.alt}></img>
-              <p>{d.description}</p>
-            </div>
-          );
-        })}
+        <h2 className="subtitle">Base Models Used</h2>
+        <p>
+          List base model, the creator and an image of that model, include link
+          to their website
+        </p>
       </div>
       <div className="rightInfo container">
-        <h2 className="subtitle">Resources</h2>
+        <h2 className="subtitle">Pricing</h2>
         <p>
-          These resources may very from just the tools I use to work on models
-          to websites and friends that help!
+          Explain on what prices can be expected based on the type of work being
+          done
         </p>
-        <p>Might be helpful to make these a data type too...</p>
       </div>
     </div>
   );
