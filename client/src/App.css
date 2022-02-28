@@ -55,10 +55,10 @@ a {
   display: inline-block;
   padding: 0 2rem 0 2rem;
   font-size: 2rem;
+  min-width: 10rem;
 }
 
 .navs a {
-  padding: 0.5rem;
 }
 
 .tab-active {

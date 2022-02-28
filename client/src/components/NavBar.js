@@ -34,7 +34,11 @@ function NavBar() {
               onClick={() => {
                 setActive(tab);
               }}
-              className={path[2] === tab ? "tab-active " : ""}
+              className={
+                path[2] === tab
+                  ? "bg-teal-500 shadow-md shadow-teal-500/50 rounded p-1"
+                  : ""
+              }
             >
               {handleTab(tab)}
             </Link>
