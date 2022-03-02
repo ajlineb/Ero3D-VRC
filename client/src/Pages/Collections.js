@@ -69,6 +69,18 @@ export default function Collections() {
                 </td>
                 <td class="border border-slate-500 bg-indigo-800 p-1">$0.00</td>
               </tr>
+              <tr>
+                <td class="border border-slate-500 bg-indigo-300 p-2">
+                  EroChi Base
+                </td>
+                <td class="border border-slate-500 bg-indigo-800 p-1">$0.00</td>
+              </tr>
+              <tr>
+                <td class="border border-slate-500 bg-indigo-300 p-2">
+                  Custom Hair
+                </td>
+                <td class="border border-slate-500 bg-indigo-800 p-1">$0.00</td>
+              </tr>
             </tbody>
           </table>
         </div>
