@@ -19,6 +19,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 //pages to import
+import Start from "./Pages/Start";
 import Home from "./Pages/Home";
 import Collections from "./Pages/Collections";
 import Friends from "./Pages/Friends";
@@ -53,6 +54,7 @@ const App = () => {
     <Router basename="/ero3d-vrc">
       <Header />
       <Routes>
+        <Route exact path="/" element={<Start />}></Route>
         <Route exact path="/home" element={<Home />}></Route>
         <Route exact path="/collections" element={<Collections />}></Route>
         <Route exact path="/friends" element={<Friends />}></Route>

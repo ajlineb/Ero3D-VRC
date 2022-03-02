@@ -26,7 +26,7 @@ export default function Header() {
       <div className=" basis-1/4">
         <h1 className="title">ERO 3D VRC</h1>
       </div>
-      <div className=" overflow-hidden basis-1/2">
+      <div className="  basis-1/2">
         <NavBar />
       </div>
       <div className=" basis-1/4">

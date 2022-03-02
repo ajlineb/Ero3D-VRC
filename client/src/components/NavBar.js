@@ -2,18 +2,21 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function NavBar() {
-  const tabs = ["home", "collections", "friends", "tips"];
+  const tabs = ["", "home", "collections", "friends", "tips"];
   const [active, setActive] = useState(tabs[0]);
 
   //handles the name of the tabs
   function handleTab(tab) {
     if (tab === tabs[0]) {
-      return "Home";
+      return "Start";
     }
     if (tab === tabs[1]) {
-      return "Collections";
+      return "Home";
     }
     if (tab === tabs[2]) {
+      return "Collections";
+    }
+    if (tab === tabs[3]) {
       return "Friends";
     } else {
       return "Tips";
@@ -24,7 +27,7 @@ function NavBar() {
 
   return (
     <nav>
-      <ul className="">
+      <ul className="nav-container">
         {tabs.map((tab) => (
           <li className="navs">
             <Link
