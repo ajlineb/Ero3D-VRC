@@ -7,7 +7,9 @@ html {
   background-color: var(--main-bg-color);
   color: white;
   background-image: url(./utils/social_Icons/background_bursts.png);
-  background-size: fit;
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-position: center;
   z-index: 10;
 }
 
