@@ -12,7 +12,7 @@
 
 ## Description
 
-This application is designed for helping Vrchat users with developing their own avatars or finding help from either me or other users that I have listed in the website. It will show avatars that I have worked on and finished, showing certain features thatusers main be interested in learning more about or having on their avatars as well. The application will give refrences to base models used and even provide tips for users in certain programs used to create models.
+This application is designed for helping Vrchat users with developing their own avatars or finding help from either me or other users that I have listed in the website. It will show avatars that I have worked on and finished, showing certain features that users may be interested in learning more about or requesting avatar assistance. The application will give refrences to base models used and even provide tips for users in certain programs used to create models.
 
 ## URLs
 
