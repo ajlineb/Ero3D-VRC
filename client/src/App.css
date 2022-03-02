@@ -32,11 +32,6 @@ a {
   text-align: center;
 }
 
-.transparent {
-  transition: background-color 350ms;
-  background-color: transparent;
-}
-
 .title {
   font-size: 2.5rem;
   color: white;
@@ -117,9 +112,11 @@ a {
 }
 
 .footer {
+  transition: background-color 350ms display 350ms;
+  display: none;
   text-align: center;
   color: white;
-  background-color: var(--main-header-footer-color);
+  background-color: transparent;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -154,6 +151,17 @@ a {
 }
 .source-code:hover {
   color: rgb(241, 174, 86);
+}
+
+.transparent {
+  transition: background-color 350ms;
+  background-color: transparent;
+}
+
+.footer-appear {
+  display: inline-block;
+  transition: background-color 350ms display 100ms;
+  background-color: var(--main-header-footer-color);
 }
 
 @media screen and (max-width: 1650px) {
