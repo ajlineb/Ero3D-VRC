@@ -16,7 +16,7 @@ export default function Footer() {
   }
   //used to create a listener on scroll
   useEffect(() => {
-    window.addEventListener("click", handleScroll);
+    window.addEventListener("click", handleScroll); //changed to click so that upon changing a page it will refresh the posY //may need to change this if other pages become larger with a need for scroll
   });
 
   return (
