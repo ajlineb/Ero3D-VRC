@@ -121,6 +121,30 @@ a {
   background-color: var(--main-header-footer-color);
 }
 
+.social {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.social a {
+  padding: 0 1rem 0 1rem;
+}
+
+.social img {
+  width: 3rem;
+  height: 3rem;
+  filter: invert(85%) sepia(34%) saturate(6938%) hue-rotate(130deg)
+    brightness(97%) contrast(102%);
+}
+
+.social img:hover {
+  filter: invert(85%) sepia(34%) saturate(6938%) hue-rotate(130deg)
+    brightness(200%) contrast(109%);
+  transform: scale(1.1);
+}
+
 .source-code {
   color: antiquewhite;
 }
