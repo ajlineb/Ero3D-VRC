@@ -3,6 +3,7 @@ import data from "../utils/images";
 import git from "../utils/social_Icons/github.svg";
 import linkedin from "../utils/social_Icons/linkedin.svg";
 import youtube from "../utils/social_Icons/youtube.svg";
+import vrc from "../utils/social_Icons/vrchat-logo-vector.svg";
 
 export default function Start() {
   //for my own mental sanity...
@@ -22,6 +23,7 @@ export default function Start() {
       </div>
       <div className=" container">
         <h2 className="subtitle">Contact</h2>
+        <p>....</p>
         <br />
         <div className="social ">
           <a href="https://github.com/ajlineb">
@@ -33,6 +35,9 @@ export default function Start() {
               alt="linkedin logo"
               className="duration-300"
             ></img>
+          </a>
+          <a href="https://vrchat.com/home/user/usr_ac87376c-9a6e-4b48-843d-76483df6cf88">
+            <img src={vrc} alt="vrchat logo" className="duration-300"></img>
           </a>
           <a href="https://www.youtube.com/channel/UCtlk4tTuQpMtjJUR2z_dTUA">
             <img

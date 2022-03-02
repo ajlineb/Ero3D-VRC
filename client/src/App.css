@@ -10,6 +10,7 @@ html {
 
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: relative;
 }
 
 a {
@@ -78,7 +79,7 @@ a {
 
 .content {
   height: 100%;
-  padding: 5rem;
+  padding: 5rem 3rem 5rem 3rem;
   text-align: center;
   color: white;
 }
@@ -119,13 +120,16 @@ a {
   text-align: center;
   color: white;
   background-color: var(--main-header-footer-color);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .social {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 1rem;
+  padding: 1rem 0 0 0;
 }
 
 .social a {
@@ -133,8 +137,8 @@ a {
 }
 
 .social img {
-  width: 3rem;
-  height: 3rem;
+  width: 4rem;
+  height: 4rem;
   filter: invert(85%) sepia(34%) saturate(6938%) hue-rotate(130deg)
     brightness(97%) contrast(102%);
 }

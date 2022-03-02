@@ -43,7 +43,7 @@ export default function Collections() {
             <thead>
               <tr>
                 <th className="border border-slate-500 bg-indigo-500 p-1">
-                  Work Type
+                  Comission Type
                 </th>
                 <th className="border border-slate-500 bg-indigo-900 p-2">
                   Price
