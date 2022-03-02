@@ -1,6 +1,6 @@
 :root {
   --main-bg-color: #282c34;
-  --main-header-footer-color: #1f2229;
+  --main-header-footer-color: #1f2229e5;
 }
 
 html {
@@ -10,7 +10,6 @@ html {
   background-size: fill;
   background-repeat: no-repeat;
   background-position: center;
-  z-index: 10;
 }
 
 body {
@@ -88,18 +87,21 @@ a {
   border-radius: 1rem;
   background-color: var(--main-header-footer-color);
   padding: 1rem;
+  box-shadow: 0 1rem 2rem black;
 }
 
 .centerInfo {
   border-radius: 1rem;
   background-color: var(--main-header-footer-color);
   padding: 1rem;
+  box-shadow: 0 1rem 2rem black;
 }
 
 .rightInfo {
   border-radius: 1rem;
   background-color: var(--main-header-footer-color);
   padding: 1rem;
+  box-shadow: 0 1rem 2rem black;
 }
 
 .subtitle {
