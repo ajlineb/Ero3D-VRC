@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-function NavBar() {
+function Navbar() {
   const tabs = ["", "home", "collections", "friends", "tips"];
   const [active, setActive] = useState(tabs[0]);
 
@@ -52,4 +52,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Navbar;
