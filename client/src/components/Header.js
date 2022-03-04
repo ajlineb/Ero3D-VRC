@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 
 import Login from "./Login";
 //import NavBar from "./Navbar.js";
-//import { Columns } from "react-bulma-components";
 
 export default function Header() {
   const [transparent, setTransParent] = useState("transparent"); //for a scrolling animation for the header container

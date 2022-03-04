@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ero3d-vrc/static/css/main.9fc2201a.css",
+    "main.js": "/ero3d-vrc/static/js/main.dbe7bc3e.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/ero3d-vrc/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/Ero_Curious.png": "/ero3d-vrc/static/media/Ero_Curious.1d38df0ef08c826b06da.png",
+    "static/media/Ero_Blep.png": "/ero3d-vrc/static/media/Ero_Blep.ea0cf1c3594651185eca.png",
+    "static/media/background_bursts.png": "/ero3d-vrc/static/media/background_bursts.e51c611b2b7bc92c1c7b.png",
+    "static/media/Yeen.png": "/ero3d-vrc/static/media/Yeen.ead0f4f1418aef256365.png",
+    "static/media/vrchat-logo-vector.svg": "/ero3d-vrc/static/media/vrchat-logo-vector.f9c8f9f4721ee451dc2fee36f4ae7db9.svg",
+    "static/media/github.svg": "/ero3d-vrc/static/media/github.3b21c250a99986431958daaa9246a45a.svg",
+    "index.html": "/ero3d-vrc/index.html",
+    "static/media/linkedin.svg": "/ero3d-vrc/static/media/linkedin.98956d298e14a6384fdb39c42269f2f2.svg",
+    "static/media/youtube.svg": "/ero3d-vrc/static/media/youtube.7f4cdfacde8ccbd90dc0928aff24af16.svg",
+    "main.9fc2201a.css.map": "/ero3d-vrc/static/css/main.9fc2201a.css.map",
+    "main.dbe7bc3e.js.map": "/ero3d-vrc/static/js/main.dbe7bc3e.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/ero3d-vrc/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fc2201a.css",
+    "static/js/main.dbe7bc3e.js"
+  ]
+}
