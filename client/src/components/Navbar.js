@@ -24,7 +24,6 @@ function Navbar() {
   }
 
   const path = window.location.pathname.split("/");
-  console.log(path[1]);
 
   return (
     <nav>
