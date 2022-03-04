@@ -18,7 +18,7 @@ This application is designed for helping Vrchat users with developing their own 
 
 GitHub repository: https://github.com/ajlineb/ero3d-vrc
 
-Webpage:
+Webpage: https://ero3dvrc.herokuapp.com/
 
 ## Usage
 
@@ -26,7 +26,7 @@ This application will be helpful for new users of vrchat or users wanting to dev
 
 ## Images
 
-![alt website]()
+![alt website](./client/src/utils/images/ero3dvrc.png)
 
 ## Credits
 
