@@ -24,6 +24,7 @@ function Navbar() {
   }
 
   const path = window.location.pathname.split("/");
+  console.log(path[1]);
 
   return (
     <nav>
@@ -38,7 +39,7 @@ function Navbar() {
                 setActive(tab);
               }}
               className={
-                path[2] === tab
+                path[1] === tab
                   ? "bg-teal-500 shadow-lg shadow-teal-500/50 rounded p-1 hover:bg-indigo-500 hover:shadow-indigo-500/50 duration-300"
                   : "p-1"
               }
