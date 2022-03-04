@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import Login from "./Login";
-//import NavBar from "./Navbar.js";
+import NavBar from "./Navbar.js";
 
 export default function Header() {
   const [transparent, setTransParent] = useState("transparent"); //for a scrolling animation for the header container
@@ -25,7 +25,9 @@ export default function Header() {
       <div className=" basis-1/4">
         <h1 className="title">ERO 3D VRC</h1>
       </div>
-      <div className="  basis-1/2">{/* <NavBar /> */}</div>
+      <div className="  basis-1/2">
+        <NavBar />
+      </div>
       <div className=" basis-1/4">
         <Login />
       </div>
