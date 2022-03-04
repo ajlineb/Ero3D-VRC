@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001",
-  "homepage": "http://ajlineb.github.io/ero3d-vrc",
+  "homepage": "http://ajlineb.github.io/",
   "dependencies": {
     "@apollo/client": "^3.5.7",
     "@testing-library/jest-dom": "^5.16.1",

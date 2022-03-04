@@ -51,7 +51,7 @@ const client = new ApolloClient({
 
 const App = () => {
   return (
-    <Router basename="/ero3d-vrc">
+    <Router basename="">
       <Header />
       <Routes>
         <Route exact path="/" element={<Start />}></Route>
