@@ -5,7 +5,6 @@ export default function Footer() {
 
   //checks window if scrolled down for nav bar
   function handleScroll() {
-    console.log(document.body.scrollHeight);
     let posY = window.scrollY + window.innerHeight;
 
     if (posY >= document.body.clientHeight) {
