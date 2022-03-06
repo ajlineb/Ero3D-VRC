@@ -31,7 +31,11 @@ export default function Home() {
           return (
             <div id={d.id} className="collage">
               <h4>{d.name}</h4>
-              <img src={d.src} alt={d.alt}></img>
+              <picture>
+                <source srcSet={d.src} type="image/webp"></source>
+                <source srcSet={d.src2} type="image/webp"></source>
+                <img src={d.src2} alt={d.alt}></img>
+              </picture>
               <p>{d.description}</p>
             </div>
           );
