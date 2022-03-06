@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -23,8 +23,8 @@ function Navbar() {
     }
   }
 
-  const path = window.location.pathname.split("/");
-
+  const path = window.location.href.split("/");
+  console.log(path);
   return (
     <nav>
       <ul className="nav-container">
@@ -38,7 +38,7 @@ function Navbar() {
                 setActive(tab);
               }}
               className={
-                path[1] === tab
+                path[4] === tab
                   ? "bg-teal-500 shadow-lg shadow-teal-500/50 rounded p-1 hover:bg-indigo-500 hover:shadow-indigo-500/50 duration-300"
                   : "p-1"
               }
