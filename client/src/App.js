@@ -6,7 +6,7 @@ import {
 } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Link,
   Route,
   Routes,
@@ -51,17 +51,19 @@ const client = new ApolloClient({
 
 const App = () => {
   return (
-    <Router basename="">
-      <Header />
-      <Routes>
-        <Route exact path="/" element={<Start />}></Route>
-        <Route exact path="/home" element={<Home />}></Route>
-        <Route exact path="/collections" element={<Collections />}></Route>
-        <Route exact path="/friends" element={<Friends />}></Route>
-        <Route exact path="/tips" element={<Tips />}></Route>
-      </Routes>
-      <Footer />
-    </Router>
+    <ApolloProvider client={client}>
+      <Router basename="">
+        <Header />
+        <Routes>
+          <Route exact path="/" element={<Start />}></Route>
+          <Route exact path="/home" element={<Home />}></Route>
+          <Route exact path="/collections" element={<Collections />}></Route>
+          <Route exact path="/friends" element={<Friends />}></Route>
+          <Route exact path="/tips" element={<Tips />}></Route>
+        </Routes>
+        <Footer />
+      </Router>
+    </ApolloProvider>
   );
 };
 
