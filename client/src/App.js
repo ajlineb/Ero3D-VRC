@@ -25,6 +25,9 @@ import Collections from "./Pages/Collections";
 import Friends from "./Pages/Friends";
 import Tips from "./Pages/Tips";
 
+//import secret keys
+require("./.env");
+
 //Graphql api endpoint
 const httpLink = createHttpLink({
   uri: "/graphql",
