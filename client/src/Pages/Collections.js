@@ -9,7 +9,11 @@ export default function Collections() {
     return d.map((pic) => {
       // console.log(`<img src=${pic.src} alt=${pic.alt}></img>;`);
       return (
-        <img className="w-40 h-35 mx-auto" src={pic.src} alt={pic.alt}></img>
+        <img
+          className="w-40 h-35 mx-auto rounded-md"
+          src={pic.src}
+          alt={pic.alt}
+        ></img>
       );
     });
   }
@@ -24,7 +28,11 @@ export default function Collections() {
               <div className="py-5">
                 <div className="grid grid-cols-2 lg:grid-cols-2 gap-2 lg:gap-2 pb-5">
                   <div>
-                    <img src={d.thumbnailImageUrl} alt={d.alt}></img>
+                    <img
+                      className="rounded-md shadow-lg shadow-cyan-500/50"
+                      src={d.thumbnailImageUrl}
+                      alt={d.alt}
+                    ></img>
                   </div>
                   <div>
                     <h1 className="text-teal-300 font-semibold">{d.name}</h1>
@@ -48,7 +56,7 @@ export default function Collections() {
                 </div>
                 <div>
                   <span className="text-pink-300">Collage </span>
-                  <span className="grid grid-cols-3 bg-indigo-900 items-center rounded-md p-1">
+                  <span className="grid grid-cols-3 bg-indigo-900 items-center rounded-md shadow-lg shadow-indigo-500/50 p-1">
                     {mapping(d.collage)}{" "}
                   </span>
                 </div>
