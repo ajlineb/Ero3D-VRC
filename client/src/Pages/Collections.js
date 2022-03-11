@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../utils/images";
+import data from "../utils/basemodels";
 
 export default function Collections() {
   //for my own mental sanity...
@@ -10,19 +10,18 @@ export default function Collections() {
     <div className="content grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8 font-mono">
       <div className="leftInfo container">
         <h2 className="subtitle">List of my Avatars</h2>
-        <p>
-          Here I will be placing an avatar I have created, modified, with an
-          image and discription of what all I did. Include some struggles and
-          accomplishments?
-        </p>
-        <br />
-        <p>
-          Name of Avatar:<br></br> Image of Avatar: <br></br>Modifications:
-          <br></br>
-          Struggles/accomplishments: <br></br>Base Used: ?
-        </p>
-        <br />
-        <p>needs to be .mapped through a json from a fetch or manual list</p>
+        <div className="grid grid-cols-2 lg:grid-cols-2 gap-2 lg:gap 2">
+          {data.map((d) => {
+            return (
+              <>
+                <div>
+                  <img src={d.thumbnailImageUrl} alt={d.alt}></img>
+                </div>
+                <div>{d.name}</div>
+              </>
+            );
+          })}
+        </div>
       </div>
       <div className="centerInfo container">
         <h2 className="subtitle">Base Models Used</h2>

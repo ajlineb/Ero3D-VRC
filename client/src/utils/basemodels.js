@@ -10,12 +10,13 @@ const data = [
       "https://api.vrchat.cloud/api/1/file/file_24eace7a-e287-4faf-baf4-59762d804afe/1/file",
     thumbnailImageUrl:
       "https://api.vrchat.cloud/api/1/image/file_24eace7a-e287-4faf-baf4-59762d804afe/1/256",
+    alt: "thumbnail of avatar",
     collage: [
       {
         id: 1,
-        src: require("..."),
-        src2: require("..."),
-        alt: "",
+        src: require("../images/BEAN.png"),
+        src2: require("../images/BEAN.png"),
+        alt: "bean",
       },
     ],
     modifications: [
@@ -37,9 +38,9 @@ const data = [
     collage: [
       {
         id: 1,
-        src: require("..."),
-        src2: require("..."),
-        alt: "",
+        src: require("../images/BEAN.png"),
+        src2: require("../images/BEAN.png"),
+        alt: "bean",
       },
     ],
     modifications: ["Texture/color change"],
