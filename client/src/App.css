@@ -121,6 +121,11 @@ a {
   border-radius: 1rem;
 }
 
+.collage-items {
+  height: 2rem;
+  width: 2rem;
+}
+
 .footer {
   transition: background-color 350ms display 350ms;
   display: none;

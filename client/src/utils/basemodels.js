@@ -18,11 +18,23 @@ const data = [
         src2: require("../images/BEAN.png"),
         alt: "bean",
       },
+      {
+        id: 2,
+        src: require("../images/BEAN.png"),
+        src2: require("../images/BEAN.png"),
+        alt: "bean",
+      },
+      {
+        id: 3,
+        src: require("../images/BEAN.png"),
+        src2: require("../images/BEAN.png"),
+        alt: "bean",
+      },
     ],
     modifications: [
-      "A remodel of the breast, beans on feet, added replacement shapekeys",
-      "Made new textures to represent an older model that is my main",
-      "Added new animations (still adding more toggles/sliders in the vrc menu",
+      "A remodel of the breast, beans on feet, added replacement shapekeys. ",
+      "Made new textures to represent an older model that is my main. ",
+      "Added new animations (still adding more toggles/sliders in the vrc menu. ",
     ],
     baseUsed: "Deira",
   },
@@ -55,6 +67,14 @@ const data = [
       "https://api.vrchat.cloud/api/1/file/file_760b861f-34aa-4f91-8a33-bf5e3cdba2e8/1/file",
     thumbnailImageUrl:
       "https://api.vrchat.cloud/api/1/image/file_760b861f-34aa-4f91-8a33-bf5e3cdba2e8/1/256",
+    collage: [
+      {
+        id: 1,
+        src: require("../images/BEAN.png"),
+        src2: require("../images/BEAN.png"),
+        alt: "bean",
+      },
+    ],
   },
   {
     id: 4,
@@ -65,6 +85,14 @@ const data = [
       "https://api.vrchat.cloud/api/1/file/file_d6fe6acb-a639-4747-b508-1e6537459f1b/3/file",
     thumbnailImageUrl:
       "https://api.vrchat.cloud/api/1/image/file_d6fe6acb-a639-4747-b508-1e6537459f1b/3/256",
+    collage: [
+      {
+        id: 1,
+        src: require("../images/BEAN.png"),
+        src2: require("../images/BEAN.png"),
+        alt: "bean",
+      },
+    ],
   },
   {
     id: 5,
@@ -75,6 +103,14 @@ const data = [
       "https://api.vrchat.cloud/api/1/file/file_e4ae3ac5-b0a0-4f85-9c6e-6503adc7dfdd/1/file",
     thumbnailImageUrl:
       "https://api.vrchat.cloud/api/1/image/file_e4ae3ac5-b0a0-4f85-9c6e-6503adc7dfdd/1/256",
+    collage: [
+      {
+        id: 1,
+        src: require("../images/BEAN.png"),
+        src2: require("../images/BEAN.png"),
+        alt: "bean",
+      },
+    ],
   },
   {
     id: 6,
@@ -85,6 +121,14 @@ const data = [
       "https://api.vrchat.cloud/api/1/file/file_58e6a450-23db-4746-8321-382d0d95043f/2/file",
     thumbnailImageUrl:
       "https://api.vrchat.cloud/api/1/image/file_58e6a450-23db-4746-8321-382d0d95043f/2/256",
+    collage: [
+      {
+        id: 1,
+        src: require("../images/BEAN.png"),
+        src2: require("../images/BEAN.png"),
+        alt: "bean",
+      },
+    ],
   },
   {
     id: 7,
@@ -95,6 +139,14 @@ const data = [
       "https://api.vrchat.cloud/api/1/file/file_f0fae168-b40c-4b5d-93d0-e593e97ece35/1/file",
     thumbnailImageUrl:
       "https://api.vrchat.cloud/api/1/image/file_f0fae168-b40c-4b5d-93d0-e593e97ece35/1/256",
+    collage: [
+      {
+        id: 1,
+        src: require("../images/BEAN.png"),
+        src2: require("../images/BEAN.png"),
+        alt: "bean",
+      },
+    ],
   },
   {
     id: 8,
@@ -105,6 +157,14 @@ const data = [
       "https://api.vrchat.cloud/api/1/file/file_8337f717-a354-4eb8-8eca-96c7cf8b3c21/3/file",
     thumbnailImageUrl:
       "https://api.vrchat.cloud/api/1/image/file_8337f717-a354-4eb8-8eca-96c7cf8b3c21/3/256",
+    collage: [
+      {
+        id: 1,
+        src: require("../images/BEAN.png"),
+        src2: require("../images/BEAN.png"),
+        alt: "bean",
+      },
+    ],
   },
   {
     id: 9,
@@ -115,6 +175,14 @@ const data = [
       "https://api.vrchat.cloud/api/1/file/file_f0024ba8-6985-4dc5-a341-ee69a155d7ad/1/file",
     thumbnailImageUrl:
       "https://api.vrchat.cloud/api/1/image/file_f0024ba8-6985-4dc5-a341-ee69a155d7ad/1/256",
+    collage: [
+      {
+        id: 1,
+        src: require("../images/BEAN.png"),
+        src2: require("../images/BEAN.png"),
+        alt: "bean",
+      },
+    ],
   },
   {
     id: 10,
@@ -126,6 +194,14 @@ const data = [
       "https://api.vrchat.cloud/api/1/file/file_462a4761-fc1f-4d4a-9b6c-9eb3b258b92d/1/file",
     thumbnailImageUrl:
       "https://api.vrchat.cloud/api/1/image/file_462a4761-fc1f-4d4a-9b6c-9eb3b258b92d/1/256",
+    collage: [
+      {
+        id: 1,
+        src: require("../images/BEAN.png"),
+        src2: require("../images/BEAN.png"),
+        alt: "bean",
+      },
+    ],
   },
 ];
 
