@@ -5,17 +5,21 @@ export default function Collections() {
   //for my own mental sanity...
   //grid grid-cols-3 is similar to bootstrap with a row and three columns
   //to add gutters you will need gap-x for the gutter amounts
+
+  //this function maps out each image in the collage within the avatar data
   function mapping(d) {
+    //the double return statement.... pain
     return d.map((pic) => {
-      // console.log(`<img src=${pic.src} alt=${pic.alt}></img>;`);
       return (
-        <div>
+        <div className="p-1">
           <img
-            className="w-40 h-35 mx-auto rounded-md"
+            className="w-40 h-35 mx-auto rounded-t-md"
             src={pic.src}
             alt={pic.alt}
           ></img>
-          <p>{pic.title}</p>
+          <p className="text-xs font-semibold bg-gray-800 mx-auto  xl:w-40 h-35 rounded-b-md text-break overflow-hidden">
+            {pic.title}
+          </p>
         </div>
       );
     });
@@ -26,6 +30,7 @@ export default function Collections() {
       <div className="leftInfo container">
         <h2 className="subtitle">List of my Avatars</h2>
         <div>
+          {/* for displaying each avatar, its images, and text about them */}
           {data.map((d) => {
             return (
               <div className="py-5">
@@ -52,14 +57,17 @@ export default function Collections() {
                     <br></br>
                     <p>
                       {" "}
-                      <span className="text-cyan-500">Base Used: </span>
-                      {d.baseUsed}
+                      <span className="text-cyan-500 font-semibold">
+                        Base Used:{" "}
+                      </span>
+                      <span font-semibold>{d.baseUsed}</span>
                     </p>
                   </div>
                 </div>
                 <div>
-                  <span className="text-pink-300">Collage </span>
+                  <span className="text-pink-300 font-semibold">Collage </span>
                   <span className="grid grid-cols-3 bg-indigo-900 items-center rounded-md shadow-lg shadow-indigo-500/50 p-1">
+                    {/* This is where the collage gets outputted */}
                     {mapping(d.collage)}{" "}
                   </span>
                 </div>
