@@ -9,11 +9,14 @@ export default function Collections() {
     return d.map((pic) => {
       // console.log(`<img src=${pic.src} alt=${pic.alt}></img>;`);
       return (
-        <img
-          className="w-40 h-35 mx-auto rounded-md"
-          src={pic.src}
-          alt={pic.alt}
-        ></img>
+        <div>
+          <img
+            className="w-40 h-35 mx-auto rounded-md"
+            src={pic.src}
+            alt={pic.alt}
+          ></img>
+          <p>{pic.title}</p>
+        </div>
       );
     });
   }
