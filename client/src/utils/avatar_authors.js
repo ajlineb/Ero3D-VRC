@@ -2,6 +2,7 @@
 
 const data = [
   {
+    id: 1,
     avatarName: "Deira",
     author: "MariVR",
     notes:
@@ -9,9 +10,24 @@ const data = [
     price: "$45",
     images: [
       {
-        src: require("../images/BEAN.png"),
+        src: "https://public-files.gumroad.com/lgxz7rx4ci3w3pyw5pylevnusedz",
         src2: require("../images/BEAN.png"),
-        alt: "beans",
+        alt: "Deira Avatar",
+      },
+    ],
+  },
+  {
+    id: 2,
+    avatarName: "Hyenid",
+    author: "alber",
+    notes:
+      "A highly customizable 3D avatar base developed for use on social VR platforms. Optimized for VRChat and Neos.",
+    price: "$40",
+    images: [
+      {
+        src: "https://public-files.gumroad.com/maphyzxj1h8sm5vxrugso0f3r8iq",
+        src2: require("../images/BEAN.png"),
+        alt: "Hyenid avatar",
       },
     ],
   },
