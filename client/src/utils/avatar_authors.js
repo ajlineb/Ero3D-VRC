@@ -14,11 +14,11 @@ const data = [
         alt: "Deira Avatar",
       },
       {
-        src: "https://public-files.gumroad.com/lgxz7rx4ci3w3pyw5pylevnusedz",
+        src: "https://public-files.gumroad.com/zk3ieg55rv4codpny4yn87uaz581",
         alt: "Deira Avatar",
       },
       {
-        src: "https://public-files.gumroad.com/lgxz7rx4ci3w3pyw5pylevnusedz",
+        src: "https://public-files.gumroad.com/sbxgcjy9xr44yvb0zhwzocd07b5b",
         alt: "Deira Avatar",
       },
     ],
