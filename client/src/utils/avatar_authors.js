@@ -11,7 +11,14 @@ const data = [
     images: [
       {
         src: "https://public-files.gumroad.com/lgxz7rx4ci3w3pyw5pylevnusedz",
-        src2: require("../images/BEAN.png"),
+        alt: "Deira Avatar",
+      },
+      {
+        src: "https://public-files.gumroad.com/lgxz7rx4ci3w3pyw5pylevnusedz",
+        alt: "Deira Avatar",
+      },
+      {
+        src: "https://public-files.gumroad.com/lgxz7rx4ci3w3pyw5pylevnusedz",
         alt: "Deira Avatar",
       },
     ],
@@ -26,9 +33,18 @@ const data = [
     images: [
       {
         src: "https://public-files.gumroad.com/maphyzxj1h8sm5vxrugso0f3r8iq",
-        src2: require("../images/BEAN.png"),
+        alt: "Hyenid avatar",
+      },
+      {
+        src: "https://public-files.gumroad.com/bszgtgdih49b4ng9j9neo39v1sxa",
+        alt: "Hyenid avatar",
+      },
+      {
+        src: "https://public-files.gumroad.com/ijxp9xvtc8uyo5drdwmmouivyzgw",
         alt: "Hyenid avatar",
       },
     ],
   },
 ];
+
+export default data;

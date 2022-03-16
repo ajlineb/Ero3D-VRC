@@ -1,5 +1,6 @@
 import React from "react";
 import data from "../utils/basemodels";
+import Authors from "../components/Carousel";
 
 export default function Collections() {
   //for my own mental sanity...
@@ -78,10 +79,9 @@ export default function Collections() {
       </div>
       <div className="centerInfo container">
         <h2 className="subtitle">Base Models Used</h2>
-        <p>
-          List base model, the creator and an image of that model, include link
-          to their website
-        </p>
+        {/* {Authors(0)}
+        {Authors(1)} */}
+        <Authors />
       </div>
       <div className="rightInfo container">
         <h2 className="subtitle">Pricing</h2>
