@@ -1,4 +1,4 @@
-//json of basemodels used
+//list of basemodels used
 
 const data = [
   {
