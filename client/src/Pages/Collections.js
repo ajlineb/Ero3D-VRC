@@ -79,8 +79,6 @@ export default function Collections() {
       </div>
       <div className="centerInfo container">
         <h2 className="subtitle">Base Models Used</h2>
-        {/* {Authors(0)}
-        {Authors(1)} */}
         <Authors />
       </div>
       <div className="rightInfo container">

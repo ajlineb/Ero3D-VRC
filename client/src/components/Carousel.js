@@ -15,7 +15,7 @@ export default function Carousel() {
       return (
         <div
           id={`carouselExampleIndicators${index}`}
-          class="carousel slide relative"
+          class="carousel slide relative space-x-4"
           data-bs-ride="carousel"
         >
           <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
@@ -44,21 +44,21 @@ export default function Carousel() {
             <div class="carousel-item active float-left w-full">
               <img
                 src={author.images[0].src}
-                class="block w-full"
+                class="block w-11/12 h-96 m-5 rounded-md"
                 alt="Wild Landscape"
               />
             </div>
             <div class="carousel-item float-left w-full">
               <img
                 src={author.images[1].src}
-                class="block w-full"
+                class="block w-11/12 h-96 m-5 rounded-md"
                 alt="Camera"
               />
             </div>
             <div class="carousel-item float-left w-full">
               <img
                 src={author.images[2].src}
-                class="block w-full"
+                class="block w-11/12 h-96 m-5 rounded-md"
                 alt="Exotic Fruits"
               />
             </div>
@@ -87,6 +87,7 @@ export default function Carousel() {
             ></span>
             <span class="visually-hidden">Next</span>
           </button>
+          <br></br>
         </div>
       );
     });
