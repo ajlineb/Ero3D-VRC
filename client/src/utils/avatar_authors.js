@@ -7,7 +7,7 @@ const data = [
     author: "MariVR",
     notes:
       "This is an original 3D model compatible with Unity's Humanoid format and designed for VRChat.",
-    price: "$45",
+    price: "$45+",
     images: [
       {
         src: "https://public-files.gumroad.com/lgxz7rx4ci3w3pyw5pylevnusedz",
@@ -22,6 +22,7 @@ const data = [
         alt: "Deira Avatar",
       },
     ],
+    url: "https://marivr.gumroad.com/l/Deira",
   },
   {
     id: 2,
@@ -29,7 +30,7 @@ const data = [
     author: "alber",
     notes:
       "A highly customizable 3D avatar base developed for use on social VR platforms. Optimized for VRChat and Neos.",
-    price: "$40",
+    price: "$40+",
     images: [
       {
         src: "https://public-files.gumroad.com/maphyzxj1h8sm5vxrugso0f3r8iq",
@@ -44,6 +45,7 @@ const data = [
         alt: "Hyenid avatar",
       },
     ],
+    url: "https://alber.gumroad.com/l/Hyenid",
   },
   {
     id: 3,
@@ -66,6 +68,7 @@ const data = [
         alt: "Hyenid avatar",
       },
     ],
+    url: "#/collections",
   },
 ];
 
