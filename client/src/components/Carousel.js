@@ -13,10 +13,10 @@ export default function Carousel() {
     l = length;
     return data.map((author, index) => {
       return (
-        <div className="pb-10 mb-10 bg-indigo-900 shadow-lg shadow-indigo-500/50 rounded-md">
+        <div className="pb-10 mb-10 bg-gradient-to-br from-indigo-500 to-teal-500 shadow-lg shadow-indigo-500/50 rounded-md">
           <div>
-            <h1>{author.avatarName}</h1>
-            <p>{author.author}</p>
+            <h1 className="text-xl">{author.avatarName}</h1>
+            <p className="text-sm">{author.author}</p>
           </div>
           <a href={author.url}>
             <div
@@ -98,8 +98,11 @@ export default function Carousel() {
           </a>
 
           <div>
-            <p>{author.notes}</p>
-            <p>Pricing: {author.price}</p>
+            <p className="text-sm px-10">{author.notes}</p>
+            <br></br>
+            <p className="text-sm font-black italic px-10">
+              Pricing: {author.price}
+            </p>
           </div>
         </div>
       );
