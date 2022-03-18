@@ -106,21 +106,23 @@ export default function Collections() {
                   Texture Work
                 </td>
                 <td className="border border-slate-500 bg-indigo-800 p-1">
-                  $0.00
+                  $15.00
                 </td>
               </tr>
               <tr>
                 <td className="border border-slate-500 bg-indigo-300 p-2">
                   Avatar Physical Changes
                 </td>
-                <td class="border border-slate-500 bg-indigo-800 p-1">$0.00</td>
+                <td class="border border-slate-500 bg-indigo-800 p-1">
+                  $20.00
+                </td>
               </tr>
               <tr>
                 <td className="border border-slate-500 bg-indigo-300 p-2">
                   Blend Shapes/Shape keys
                 </td>
                 <td className="border border-slate-500 bg-indigo-800 p-1">
-                  $0.00
+                  $20.00
                 </td>
               </tr>
               <tr>
@@ -128,7 +130,7 @@ export default function Collections() {
                   EroChi Base
                 </td>
                 <td className="border border-slate-500 bg-indigo-800 p-1">
-                  $0.00
+                  $55.00
                 </td>
               </tr>
               <tr>
@@ -136,7 +138,7 @@ export default function Collections() {
                   Custom Hair
                 </td>
                 <td className="border border-slate-500 bg-indigo-800 p-1">
-                  $0.00
+                  $15.00
                 </td>
               </tr>
             </tbody>

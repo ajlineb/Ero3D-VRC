@@ -30,7 +30,7 @@ const data = [
     author: "alber",
     notes:
       "A highly customizable 3D avatar base developed for use on social VR platforms. Optimized for VRChat and Neos.",
-    price: "$40+",
+    price: "$40",
     images: [
       {
         src: "https://public-files.gumroad.com/maphyzxj1h8sm5vxrugso0f3r8iq",
