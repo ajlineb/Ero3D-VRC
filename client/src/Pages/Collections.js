@@ -13,11 +13,15 @@ export default function Collections() {
     return d.map((pic) => {
       return (
         <div className="p-1">
-          <img
-            className="w-full rounded-t-md"
-            src={pic.src}
-            alt={pic.alt}
-          ></img>
+          <picture>
+            <source srcSet={pic.src} type="image/webp"></source>
+            <source srcSet={pic.src2} type="image/webp"></source>
+            <img
+              className="w-full rounded-t-md"
+              src={pic.src2}
+              alt={pic.alt}
+            ></img>
+          </picture>
           <p className="text-xs font-semibold bg-gray-800 mx-auto  w-full rounded-b-md text-break overflow-hidden">
             {pic.title}
           </p>

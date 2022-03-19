@@ -14,21 +14,21 @@ const data = [
     collage: [
       {
         id: 1,
-        src: require("../images/BEAN.png"),
+        src: require("../images/BEAN.webp"),
         src2: require("../images/BEAN.png"),
         alt: "bean",
         title: "Bean Change",
       },
       {
         id: 2,
-        src: require("../images/BEAN.png"),
+        src: require("../images/BEAN.webp"),
         src2: require("../images/BEAN.png"),
         alt: "bean",
         title: "Breast Change",
       },
       {
         id: 3,
-        src: require("../images/BEAN.png"),
+        src: require("../images/BEAN.webp"),
         src2: require("../images/BEAN.png"),
         alt: "bean",
         title: "Texture Work",
@@ -53,7 +53,7 @@ const data = [
     collage: [
       {
         id: 1,
-        src: require("../images/BEAN.png"),
+        src: require("../images/BEAN.webp"),
         src2: require("../images/BEAN.png"),
         alt: "bean",
         title: "Bean Change",
@@ -74,7 +74,7 @@ const data = [
     collage: [
       {
         id: 1,
-        src: require("../images/BEAN.png"),
+        src: require("../images/BEAN.webp"),
         src2: require("../images/BEAN.png"),
         alt: "bean",
         title: "Bean Change",
@@ -100,7 +100,7 @@ const data = [
     collage: [
       {
         id: 1,
-        src: require("../images/BEAN.png"),
+        src: require("../images/BEAN.webp"),
         src2: require("../images/BEAN.png"),
         alt: "bean",
         title: "Bean Change",
@@ -110,9 +110,9 @@ const data = [
       "Breasts were changed/larger. ",
       "Remodeled/sculpted butt. ",
       "Added blush mesh to the face",
-      "Added shape keys to turn on and off the blush",
-      "Remodeled the feet/beans",
-      "Added shape keys for controlling the size of the feet/beans",
+      "Added shape keys to turn on and off the blush. ",
+      "Remodeled the feet/beans. ",
+      "Added shape keys for controlling the size of the feet/beans. ",
     ],
     baseUsed: "Hyenid",
   },
@@ -128,7 +128,7 @@ const data = [
     collage: [
       {
         id: 1,
-        src: require("../images/BEAN.png"),
+        src: require("../images/BEAN.webp"),
         src2: require("../images/BEAN.png"),
         alt: "bean",
         title: "Bean Change",
@@ -147,7 +147,7 @@ const data = [
     collage: [
       {
         id: 1,
-        src: require("../images/BEAN.png"),
+        src: require("../images/BEAN.webp"),
         src2: require("../images/BEAN.png"),
         alt: "bean",
         title: "Bean Change",
@@ -166,7 +166,7 @@ const data = [
     collage: [
       {
         id: 1,
-        src: require("../images/BEAN.png"),
+        src: require("../images/BEAN.webp"),
         src2: require("../images/BEAN.png"),
         alt: "bean",
         title: "Bean Change",
@@ -185,7 +185,7 @@ const data = [
     collage: [
       {
         id: 1,
-        src: require("../images/BEAN.png"),
+        src: require("../images/BEAN.webp"),
         src2: require("../images/BEAN.png"),
         alt: "bean",
         title: "Bean Change",
@@ -204,7 +204,7 @@ const data = [
     collage: [
       {
         id: 1,
-        src: require("../images/BEAN.png"),
+        src: require("../images/BEAN.webp"),
         src2: require("../images/BEAN.png"),
         alt: "bean",
         title: "Bean Change",
@@ -224,7 +224,7 @@ const data = [
     collage: [
       {
         id: 1,
-        src: require("../images/BEAN.png"),
+        src: require("../images/BEAN.webp"),
         src2: require("../images/BEAN.png"),
         alt: "bean",
         title: "Bean Change",

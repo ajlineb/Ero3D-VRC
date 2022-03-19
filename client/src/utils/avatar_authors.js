@@ -56,15 +56,18 @@ const data = [
     price: "$60 for both male and female, $40 for individual.",
     images: [
       {
-        src: require("../images/Coppou1.png"),
+        src: require("../images/Coppou1.webp"),
+        src2: require("../images/Coppou1.png"),
         alt: "Hyenid avatar",
       },
       {
-        src: require("../images/Coppou2.png"),
+        src: require("../images/Coppou2.webp"),
+        src2: require("../images/Coppou2.png"),
         alt: "Hyenid avatar",
       },
       {
-        src: require("../images/Coppou3.png"),
+        src: require("../images/Coppou3.webp"),
+        src2: require("../images/Coppou3.png"),
         alt: "Hyenid avatar",
       },
     ],
