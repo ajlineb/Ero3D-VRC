@@ -80,6 +80,13 @@ const data = [
         title: "Bean Change",
       },
     ],
+    modifications: [
+      "Breasts were added. ",
+      "Remodeled/sculpted butt. ",
+      "Added bones for breast and butt including their weight paints. ",
+      "Added physics to the new bones. ",
+    ],
+    baseUsed: "Nanachi",
   },
   {
     id: 4,

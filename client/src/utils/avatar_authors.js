@@ -70,6 +70,29 @@ const data = [
     ],
     url: "#/collections",
   },
+  {
+    id: 3,
+    avatarName: "Nanachi",
+    author: "Zy0n7",
+    notes:
+      "This model now includes an avatar for VRChat (only default clothes included currently). Please note the base model is not rigged.",
+    price: "$55",
+    images: [
+      {
+        src: "https://public-files.gumroad.com/824fd8s4hea1zysji3emblxq4u50",
+        alt: "Hyenid avatar",
+      },
+      {
+        src: "https://public-files.gumroad.com/3e5qy5xtnqvtbpz6380pz2zoxf6b",
+        alt: "Hyenid avatar",
+      },
+      {
+        src: "https://public-files.gumroad.com/835naari1ee0zb45009lcpycb9dg",
+        alt: "Hyenid avatar",
+      },
+    ],
+    url: "https://zy0n7.gumroad.com/l/oHVwN",
+  },
 ];
 
 export default data;

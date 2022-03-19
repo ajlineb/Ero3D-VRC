@@ -44,7 +44,9 @@ export default function Collections() {
                     ></img>
                   </div>
                   <div>
-                    <h1 className="text-teal-300 font-semibold">{d.name}</h1>
+                    <h1 className="text-teal-300 font-semibold text-break overflow-hidden">
+                      {d.name}
+                    </h1>
                     <br></br>
                     <p>
                       <span className="text-indigo-600 font-semibold">
@@ -106,7 +108,7 @@ export default function Collections() {
                   Texture Work
                 </td>
                 <td className="border border-slate-500 bg-indigo-800 p-1">
-                  $15.00
+                  $20.00
                 </td>
               </tr>
               <tr>
@@ -114,7 +116,7 @@ export default function Collections() {
                   Avatar Physical Changes
                 </td>
                 <td class="border border-slate-500 bg-indigo-800 p-1">
-                  $20.00
+                  $30.00
                 </td>
               </tr>
               <tr>
@@ -138,7 +140,7 @@ export default function Collections() {
                   Custom Hair
                 </td>
                 <td className="border border-slate-500 bg-indigo-800 p-1">
-                  $15.00
+                  $35.00
                 </td>
               </tr>
             </tbody>
