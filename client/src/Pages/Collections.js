@@ -14,11 +14,11 @@ export default function Collections() {
       return (
         <div className="p-1">
           <img
-            className="w-40 h-35 mx-auto rounded-t-md"
+            className="w-full rounded-t-md"
             src={pic.src}
             alt={pic.alt}
           ></img>
-          <p className="text-xs font-semibold bg-gray-800 mx-auto  xl:w-40 h-35 rounded-b-md text-break overflow-hidden">
+          <p className="text-xs font-semibold bg-gray-800 mx-auto  w-full rounded-b-md text-break overflow-hidden">
             {pic.title}
           </p>
         </div>
