@@ -106,6 +106,15 @@ const data = [
         title: "Bean Change",
       },
     ],
+    modifications: [
+      "Breasts were changed/larger. ",
+      "Remodeled/sculpted butt. ",
+      "Added blush mesh to the face",
+      "Added shape keys to turn on and off the blush",
+      "Remodeled the feet/beans",
+      "Added shape keys for controlling the size of the feet/beans",
+    ],
+    baseUsed: "Hyenid",
   },
   {
     id: 5,
