@@ -10,8 +10,8 @@ html {
   background-image: image-set(
     url(./utils//social_Icons/background_bursts.webp) 1x
   );
-  background-size: fill;
-  background-repeat: repeat;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-position: center;
 }
 
