@@ -13,7 +13,6 @@ import {
   Navigate,
 } from "react-router-dom";
 import "tw-elements";
-import "./App.css";
 
 //import components
 import Header from "./components/Header";

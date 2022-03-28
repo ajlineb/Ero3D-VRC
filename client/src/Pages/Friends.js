@@ -12,7 +12,7 @@ export default function Tips() {
         <h2 className="subtitle">
           Helpful Friends on VRC for Avatar Development
         </h2>
-        <p>helpful user *Name*</p>
+        <p>Scipi, Pure, Innocent, and Holesome Nyan</p>
         <p>helpful user *Name*</p>
         <p>helpful user *Name*</p>
       </div>
