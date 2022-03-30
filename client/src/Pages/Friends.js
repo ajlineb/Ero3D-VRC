@@ -12,8 +12,9 @@ export default function Tips() {
         <h2 className="subtitle">
           Helpful Friends on VRC for Avatar Development
         </h2>
+        <p>DawnStar</p>
         <p>Scipi, Pure, Innocent, and Holesome Nyan</p>
-        <p>helpful user *Name*</p>
+        <p>SilentWhisp</p>
         <p>helpful user *Name*</p>
       </div>
       <div className="centerInfo container">
