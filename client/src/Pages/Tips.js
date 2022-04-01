@@ -1,7 +1,7 @@
 import React from "react";
 import data from "../utils/images";
 
-export default function Friends() {
+export default function Tips() {
   //for my own mental sanity...
   //grid grid-cols-3 is similar to bootstrap with a row and three columns
   //to add gutters you will need gap-x for the gutter amounts

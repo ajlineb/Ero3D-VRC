@@ -1,7 +1,8 @@
 import React from "react";
+//import Vrchat from "../utils/apiLogin";
 import data from "../utils/images";
 
-export default function Tips() {
+export default function Friends() {
   //for my own mental sanity...
   //grid grid-cols-3 is similar to bootstrap with a row and three columns
   //to add gutters you will need gap-x for the gutter amounts
