@@ -17,19 +17,29 @@ export default function Friends() {
       </div>
       <div className="centerInfo container">
         <h2 className="subtitle">Awesome Friends!</h2>
-        <p>List of closest friends *Need to ask permission to place names*</p>
         <p>DawnStar</p>
         <p>Scipi, Pure, Innocent, and Holesome Nyan</p>
         <p>SilentWhisp</p>
       </div>
       <div className="rightInfo container">
         <h2 className="subtitle">Are you a friend yet?</h2>
-        <p>Lets get to know each other!</p>
+        <p className="font-black">Lets get to know each other!</p>
         <br />
-        <p>
-          List out neat things about myself, how long I have been working on
-          avatars and playing on vrc. Maybe mention my ability to develop
-          websites!
+        <p className="text-justify">
+          Hello! My name is EroForce but most of my friends just call me Ero. I
+          enjoy working with furry avatars and have been for three years now!
+        </p>
+        <br />
+        <p className="text-justify">
+          I haved done a lot of sculpting of avatar features, creating
+          blendshapes, body part switches, hair creation that is fully rigged,
+          and much more!
+        </p>
+        <br />
+        <p className="text-justify">
+          As a side note I even develop websites from frontend to backend server
+          development. If you would like to hangout and chat in VRChat just send
+          a DM to EroForce on Discord!
         </p>
       </div>
     </div>
