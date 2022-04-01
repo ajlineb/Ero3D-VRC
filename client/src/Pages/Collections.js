@@ -57,7 +57,7 @@ export default function Collections() {
                         Modifications:
                       </span>{" "}
                       <br></br>
-                      <span className="text-xs font-semibold text-justify">
+                      <span className="text-xs font-semibold">
                         {d.modifications}
                       </span>
                     </p>
