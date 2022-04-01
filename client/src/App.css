@@ -126,6 +126,10 @@ a {
   width: 2rem;
 }
 
+.works-info {
+  text-shadow: 0 0 5px rgb(99, 101, 241);
+}
+
 .footer {
   transition: background-color 350ms display 350ms;
   display: none;

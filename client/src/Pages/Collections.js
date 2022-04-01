@@ -94,7 +94,7 @@ export default function Collections() {
           done
         </p>
         <br />
-        <div className="flex justify-center">
+        <div className="flex flex-col justify-center">
           <table className="border-collapse border border-slate-500 table-auto ">
             <thead>
               <tr>
@@ -112,7 +112,7 @@ export default function Collections() {
                   Texture Work
                 </td>
                 <td className="border border-slate-500 bg-indigo-800 p-1">
-                  $20.00
+                  $20.00+
                 </td>
               </tr>
               <tr>
@@ -128,7 +128,7 @@ export default function Collections() {
                   Blend Shapes/Shape keys
                 </td>
                 <td className="border border-slate-500 bg-indigo-800 p-1">
-                  $20.00
+                  $20.00+
                 </td>
               </tr>
               <tr>
@@ -149,6 +149,41 @@ export default function Collections() {
               </tr>
             </tbody>
           </table>
+
+          <br />
+          <p className="text-justify">
+            <span className="font-black works-info">Texture Work: </span>
+            Full body textures, hair, eyes, clothing etc. Can also make AO
+            textures.
+          </p>
+          <br />
+          <p className="text-justify">
+            <span className="font-black works-info">
+              Avatar Physical Changes:{" "}
+            </span>
+            From sculpting body parts, to resizing, to adding all covered here!
+          </p>
+          <br />
+          <p className="text-justify">
+            <span className="font-black works-info">
+              Blend Shapes/Shape keys:{" "}
+            </span>
+            Want to make parts of the avatar change? Big ears to small ears,
+            breasts to no breasts, thiccness to smol all covered here.
+          </p>
+          <br />
+          <p className="text-justify">
+            <span className="font-black works-info">EroChi Base: </span>
+            Want the EroChi model? Will include clothing, shapekeys for toggling
+            breasts, textures included and AO, and Unity project for easy start
+            with animations.
+          </p>
+          <br />
+          <p className="text-justify">
+            <span className="font-black works-info">Custom Hair: </span>
+            Able to make hair from scratch, add bones and weight paint. UVs will
+            be setup too for textures.
+          </p>
         </div>
       </div>
     </div>
