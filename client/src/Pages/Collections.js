@@ -146,20 +146,20 @@ export default function Collections() {
             </tbody>
           </table>
 
-          <br />
+          <br className="m-5" />
           <p className="text-justify">
             <span className="font-black works-info">Texture Work: </span>
             Full body textures, hair, eyes, clothing etc. Can also make AO
             textures.
           </p>
-          <br />
+          <br className="m-5" />
           <p className="text-justify">
             <span className="font-black works-info">
               Avatar Physical Changes:{" "}
             </span>
             From sculpting body parts, to resizing, to adding all covered here!
           </p>
-          <br />
+          <br className="m-5" />
           <p className="text-justify">
             <span className="font-black works-info">
               Blend Shapes/Shape keys:{" "}
@@ -167,14 +167,14 @@ export default function Collections() {
             Want to make parts of the avatar change? Big ears to small ears,
             breasts to no breasts, thiccness to smol all covered here.
           </p>
-          <br />
+          <br className="m-5" />
           <p className="text-justify">
             <span className="font-black works-info">EroChi Base: </span>
             Want the EroChi model? Will include clothing, shapekeys for toggling
             breasts, textures included and AO, and Unity project for easy start
             with animations.
           </p>
-          <br />
+          <br className="m-5" />
           <p className="text-justify">
             <span className="font-black works-info">Custom Hair: </span>
             Able to make hair from scratch, add bones and weight paint. UVs will

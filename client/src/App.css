@@ -25,10 +25,10 @@ a {
   font-style: none;
 }
 
-br {
+/* br {
   display: block;
-  margin: 1rem;
-}
+  margin: 10rem;
+} */
 
 .header {
   background-color: var(--main-header-footer-color);
