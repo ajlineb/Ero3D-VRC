@@ -25,6 +25,11 @@ a {
   font-style: none;
 }
 
+br {
+  display: block;
+  margin: 1rem;
+}
+
 .header {
   background-color: var(--main-header-footer-color);
   transition: background-color 550ms;

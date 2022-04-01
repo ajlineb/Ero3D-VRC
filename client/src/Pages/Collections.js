@@ -89,12 +89,8 @@ export default function Collections() {
       </div>
       <div className="rightInfo container">
         <h2 className="subtitle">Pricing</h2>
-        <p>
-          Explain on what prices can be expected based on the type of work being
-          done
-        </p>
         <br />
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-evenly">
           <table className="border-collapse border border-slate-500 table-auto ">
             <thead>
               <tr>
@@ -144,7 +140,7 @@ export default function Collections() {
                   Custom Hair
                 </td>
                 <td className="border border-slate-500 bg-indigo-800 p-1">
-                  $35.00
+                  $35.00+
                 </td>
               </tr>
             </tbody>
