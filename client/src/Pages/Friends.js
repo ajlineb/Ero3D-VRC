@@ -31,7 +31,7 @@ export default function Friends() {
         </p>
         <br />
         <p className="text-justify">
-          I haved done a lot of sculpting of avatar features, creating
+          I have done a lot of sculpting of avatar features, creating
           blendshapes, body part switches, hair creation that is fully rigged,
           and much more!
         </p>
