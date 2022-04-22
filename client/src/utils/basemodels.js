@@ -118,25 +118,6 @@ const data = [
   },
   {
     id: 5,
-    name: "BS",
-    description: "BS",
-    authorName: "EroForce",
-    imageUrl:
-      "https://api.vrchat.cloud/api/1/file/file_e4ae3ac5-b0a0-4f85-9c6e-6503adc7dfdd/1/file",
-    thumbnailImageUrl:
-      "https://api.vrchat.cloud/api/1/image/file_e4ae3ac5-b0a0-4f85-9c6e-6503adc7dfdd/1/256",
-    collage: [
-      {
-        id: 1,
-        src: require("../images/BEAN.webp"),
-        src2: require("../images/BEAN.png"),
-        alt: "bean",
-        title: "Bean Change",
-      },
-    ],
-  },
-  {
-    id: 6,
     name: "Azura_Fox_Bikini",
     description: "Azura_Fox_Bikini",
     authorName: "EroForce",
@@ -155,26 +136,7 @@ const data = [
     ],
   },
   {
-    id: 7,
-    name: "EroLambi",
-    description: "EroLambi",
-    authorName: "EroForce",
-    imageUrl:
-      "https://api.vrchat.cloud/api/1/file/file_f0fae168-b40c-4b5d-93d0-e593e97ece35/1/file",
-    thumbnailImageUrl:
-      "https://api.vrchat.cloud/api/1/image/file_f0fae168-b40c-4b5d-93d0-e593e97ece35/1/256",
-    collage: [
-      {
-        id: 1,
-        src: require("../images/BEAN.webp"),
-        src2: require("../images/BEAN.png"),
-        alt: "bean",
-        title: "Bean Change",
-      },
-    ],
-  },
-  {
-    id: 8,
+    id: 6,
     name: "Silent_Femboi",
     description: "Silent_Femboi",
     authorName: "EroForce",
@@ -193,7 +155,7 @@ const data = [
     ],
   },
   {
-    id: 9,
+    id: 7,
     name: "Femboy_EroChi_Skirt",
     description: "Femboy_EroChi_Skirt",
     authorName: "EroForce",
@@ -201,26 +163,6 @@ const data = [
       "https://api.vrchat.cloud/api/1/file/file_f0024ba8-6985-4dc5-a341-ee69a155d7ad/1/file",
     thumbnailImageUrl:
       "https://api.vrchat.cloud/api/1/image/file_f0024ba8-6985-4dc5-a341-ee69a155d7ad/1/256",
-    collage: [
-      {
-        id: 1,
-        src: require("../images/BEAN.webp"),
-        src2: require("../images/BEAN.png"),
-        alt: "bean",
-        title: "Bean Change",
-      },
-    ],
-  },
-  {
-    id: 10,
-    name: "Kitty",
-    description: "Kitty",
-    authorName: "EroForce",
-    tags: [],
-    imageUrl:
-      "https://api.vrchat.cloud/api/1/file/file_462a4761-fc1f-4d4a-9b6c-9eb3b258b92d/1/file",
-    thumbnailImageUrl:
-      "https://api.vrchat.cloud/api/1/image/file_462a4761-fc1f-4d4a-9b6c-9eb3b258b92d/1/256",
     collage: [
       {
         id: 1,
