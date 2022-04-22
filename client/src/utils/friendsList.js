@@ -25,6 +25,14 @@ const data = [
     alt: "thumnail",
     bio: "I'm Pure‚ Innocent‚ and Wholesome ＝＾-＾＝\nI seek headpats and oxytocin~ \nSit with me\n\nI'm a Senior Software Engineer and hobbyist game dev․ I also play a loooot of TTRPGs․\n\nScipi＃5470\n⁄skɪp-i⁄",
   },
+  {
+    id: 4,
+    name: "Vulpestus",
+    thumbnail:
+      "https://api.vrchat.cloud/api/1/image/file_1bbd44fd-77e4-4f44-8d0b-43707c392402/1/256",
+    alt: "thumbnail",
+    bio: "BOOP ME AND YOU'LL GET SHANKEDǃ\n21\nANYWAYS‚ GIMMIE PICS OF YOUR PAWSǃ",
+  },
 ];
 
 export default data;
