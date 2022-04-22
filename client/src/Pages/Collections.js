@@ -1,25 +1,70 @@
-import React from "react";
+import React, { useState } from "react";
 import data from "../utils/basemodels";
 import Authors from "../components/Carousel";
+import Modal from "../components/modal";
 
 export default function Collections() {
   //for my own mental sanity...
   //grid grid-cols-3 is similar to bootstrap with a row and three columns
   //to add gutters you will need gap-x for the gutter amounts
 
+  const [clickedImg, setClickedImg] = useState(null);
+  const [currentIndex, setCurrentIndex] = useState(null);
+
+  const handleClick = (pic, index) => {
+    setCurrentIndex(index);
+    setClickedImg(pic.src);
+  };
+
+  const handleRotationRight = () => {
+    console.log("clicked!");
+    const totalLength = data.data.length;
+    if (currentIndex + 1 > totalLength) {
+      setCurrentIndex(0);
+      const newUrl = data.data[0].link;
+      setClickedImg(newUrl);
+      return;
+    }
+    const newIndex = currentIndex + 1;
+    const newUrl = data.data.filter((item) => {
+      return data.data.indexof(item) === newIndex;
+    });
+    const newItem = newUrl[0].link;
+    setClickedImg(newItem);
+    setCurrentIndex(newIndex);
+  };
+
+  const handelRotationLeft = () => {
+    const totalLength = data.data.length;
+    if (currentIndex === 0) {
+      setCurrentIndex(totalLength - 1);
+      const newUrl = data.data[totalLength - 1].link;
+      setClickedImg(newUrl);
+      return;
+    }
+    const newIndex = currentIndex - 1;
+    const newUrl = data.data.filter((item) => {
+      return data.data.indexOf(item) === newIndex;
+    });
+    const newItem = newUrl[0].link;
+    setClickedImg(newItem);
+    setCurrentIndex(newIndex);
+  };
+
   //this function maps out each image in the collage within the avatar data
   function mapping(d) {
     //the double return statement.... pain
-    return d.map((pic) => {
+    return d.map((pic, index) => {
       return (
-        <div className="p-1">
+        <div key={index} className="p-1">
           <picture>
             <source srcSet={pic.src} type="image/webp"></source>
             <source srcSet={pic.src2} type="image/webp"></source>
             <img
-              className="w-full rounded-t-md"
+              className="w-full rounded-t-md pointer"
               src={pic.src2}
               alt={pic.alt}
+              onClick={() => handleClick(pic, index)}
             ></img>
           </picture>
           <p className="text-xs font-semibold bg-gray-800 mx-auto  w-full rounded-b-md text-break overflow-hidden">
@@ -182,6 +227,14 @@ export default function Collections() {
           </p>
         </div>
       </div>
+      {clickedImg && (
+        <Modal
+          clickedImg={clickedImg}
+          handleRotationRight={handleRotationRight}
+          setClickedImg={setClickedImg}
+          handelRotationLeft={handelRotationLeft}
+        />
+      )}
     </div>
   );
 }
