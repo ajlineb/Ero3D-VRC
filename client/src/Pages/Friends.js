@@ -1,11 +1,35 @@
 import React from "react";
 //import Vrchat from "../utils/apiLogin";
-import data from "../utils/images";
+import data from "../utils/friendsList";
 
 export default function Friends() {
   //for my own mental sanity...
   //grid grid-cols-3 is similar to bootstrap with a row and three columns
   //to add gutters you will need gap-x for the gutter amounts
+
+  const mapping = () => {
+    return data.map((d, id) => {
+      let bg = "bg-slate-500";
+      if (id / 2 === 1 || id === 0) bg = "bg-slate-800";
+      console.log(id);
+      return (
+        <div className="grid grid-cols-2 lg:grid-cols-2 gap-0 lg:gap-0 pb-10 ">
+          <div className={`flex justify-center items-center ${bg}`}>
+            <img
+              className="rounded-md shadow-lg shadow-cyan-500/50 "
+              src={d.thumbnail}
+              alt={d.thumbnail}
+            ></img>
+          </div>
+          <div className={`pl-4 pr-4 ${bg}`}>
+            <h1>{d.name}</h1>
+            <br />
+            <p className="text-xs font-semibold text-justify">{d.bio}</p>
+          </div>
+        </div>
+      );
+    });
+  };
 
   return (
     <div className="content grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8 font-mono">
@@ -17,9 +41,7 @@ export default function Friends() {
       </div>
       <div className="centerInfo container">
         <h2 className="subtitle">Awesome Friends!</h2>
-        <p>DawnStar</p>
-        <p>Scipi, Pure, Innocent, and Holesome Nyan</p>
-        <p>SilentWhisp</p>
+        {mapping()}
       </div>
       <div className="rightInfo container">
         <h2 className="subtitle">Are you a friend yet?</h2>

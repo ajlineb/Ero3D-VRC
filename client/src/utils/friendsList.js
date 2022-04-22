@@ -6,6 +6,7 @@ const data = [
     name: "DawnStar",
     thumbnail:
       "https://api.vrchat.cloud/api/1/image/file_8fde8842-cfd9-410d-ac74-5190f1188a49/3/256",
+    alt: "thumnail",
     bio: "Goof that takes almost nothing seriously‚ except when absolutely needed․\n\nI ask random questions that probably will never be answered by a Google Search‚ and for good reason․ If you have a good answer to them‚ i wanna hear it‚ seriously․\n\nMight look subby‚ but I just really like cute and adorable stuff․\nIf you even try‚ I'll either be shy and quickly change subjects or make jokes about it․ Taken anyway ǃ\n\nMade of Maple Syrup and Poutine․",
   },
   {
@@ -13,6 +14,7 @@ const data = [
     name: "Silent Whisp",
     thumbnail:
       "https://api.vrchat.cloud/api/1/image/file_25522b68-713d-4ebd-8aaf-4c32c1df482a/1/256",
+    alt: "thumnail",
     bio: "everyone's favorite alcoholic uncle",
   },
   {
@@ -20,6 +22,9 @@ const data = [
     name: "Scipi",
     thumbnail:
       "https://api.vrchat.cloud/api/1/image/file_82a9f5af-7575-4561-aa11-7382c327ba54/3/256",
+    alt: "thumnail",
     bio: "I'm Pure‚ Innocent‚ and Wholesome ＝＾-＾＝\nI seek headpats and oxytocin~ \nSit with me\n\nI'm a Senior Software Engineer and hobbyist game dev․ I also play a loooot of TTRPGs․\n\nScipi＃5470\n⁄skɪp-i⁄",
   },
 ];
+
+export default data;
