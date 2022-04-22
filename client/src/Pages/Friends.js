@@ -9,8 +9,8 @@ export default function Friends() {
 
   const mapping = () => {
     return data.map((d, id) => {
-      let bg = "bg-slate-500";
-      let shadow = "shadow-indigo-500/50";
+      let bg = "bg-slate-700";
+      let shadow = "shadow-indigo-500/80";
       if (id % 2 === 1 || !id === 0) {
         bg = "bg-slate-800";
         shadow = "shadow-cyan-500/50";
