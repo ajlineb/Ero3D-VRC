@@ -14,14 +14,16 @@ export default function Friends() {
       console.log(id);
       return (
         <div className="grid grid-cols-2 lg:grid-cols-2 gap-0 lg:gap-0 pb-10 ">
-          <div className={`flex justify-center items-center ${bg}`}>
+          <div
+            className={`rounded-l-md p-3 flex justify-center items-center ${bg}`}
+          >
             <img
               className="rounded-md shadow-lg shadow-cyan-500/50 "
               src={d.thumbnail}
               alt={d.thumbnail}
             ></img>
           </div>
-          <div className={`pl-4 pr-4 ${bg}`}>
+          <div className={`rounded-r-md pl-4 pr-4 pb-4 ${bg}`}>
             <h1>{d.name}</h1>
             <br />
             <p className="text-xs font-semibold text-justify">{d.bio}</p>
@@ -46,6 +48,9 @@ export default function Friends() {
       <div className="rightInfo container">
         <h2 className="subtitle">Are you a friend yet?</h2>
         <p className="font-black">Lets get to know each other!</p>
+        <p className="text-xs font-semibold italic text-indigo-500">
+          (Send me a DM if you are already a friend and want to be on here!)
+        </p>
         <br />
         <p className="text-justify">
           Hello! My name is EroForce but most of my friends just call me Ero. I
