@@ -33,6 +33,13 @@ const data = [
     alt: "thumbnail",
     bio: "BOOP ME AND YOU'LL GET SHANKEDǃ\n21\nANYWAYS‚ GIMMIE PICS OF YOUR PAWSǃ",
   },
+  {
+    id: 5,
+    name: "RavenSeeker",
+    thumbnail:
+      "https://api.vrchat.cloud/api/1/image/file_b1f73877-8a55-4bc0-b5d0-a5007c5557bd/2/256",
+    bio: "",
+  },
 ];
 
 export default data;
