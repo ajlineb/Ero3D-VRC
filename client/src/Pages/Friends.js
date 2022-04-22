@@ -10,7 +10,11 @@ export default function Friends() {
   const mapping = () => {
     return data.map((d, id) => {
       let bg = "bg-slate-500";
-      if (id / 2 === 1 || id === 0) bg = "bg-slate-800";
+      let shadow = "shadow-indigo-500/50";
+      if (id % 2 === 1 || !id === 0) {
+        bg = "bg-slate-800";
+        shadow = "shadow-cyan-500/50";
+      }
       console.log(id);
       return (
         <div className="grid grid-cols-2 lg:grid-cols-2 gap-0 lg:gap-0 pb-10 ">
@@ -18,7 +22,7 @@ export default function Friends() {
             className={`rounded-l-md p-3 flex justify-center items-center ${bg}`}
           >
             <img
-              className="rounded-md shadow-lg shadow-cyan-500/50 "
+              className={`rounded-md shadow-lg ${shadow}`}
               src={d.thumbnail}
               alt={d.thumbnail}
             ></img>
