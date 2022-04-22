@@ -15,7 +15,6 @@ export default function Friends() {
         bg = "bg-slate-800";
         shadow = "shadow-cyan-500/50";
       }
-      console.log(id);
       return (
         <div className="grid grid-cols-2 lg:grid-cols-2 gap-0 lg:gap-0 pb-10 ">
           <div
