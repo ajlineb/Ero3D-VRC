@@ -40,6 +40,20 @@ const data = [
         alt: "clothing changes",
         title: "Clothing/Blendshapes",
       },
+      {
+        id: 5,
+        src: require("../images/Final_Diera.png"),
+        src2: require("../images/Final_Diera.png"),
+        alt: "clothing changes",
+        title: "Finished/Front",
+      },
+      {
+        id: 6,
+        src: require("../images/Final_Diera2.png"),
+        src2: require("../images/Final_Diera2.png"),
+        alt: "clothing changes",
+        title: "Finished/Back",
+      },
     ],
     modifications: [
       "A remodel of the breast, beans on feet, added replacement shapekeys. ",
