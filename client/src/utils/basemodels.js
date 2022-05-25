@@ -7,9 +7,9 @@ const data = [
     description: "EroDeira",
     authorName: "EroForce",
     imageUrl:
-      "https://api.vrchat.cloud/api/1/file/file_24eace7a-e287-4faf-baf4-59762d804afe/1/file",
+      "https://api.vrchat.cloud/api/1/file/file_56d5999d-f0cc-487c-86d9-0d9b1636c4ec/2/file",
     thumbnailImageUrl:
-      "https://api.vrchat.cloud/api/1/image/file_24eace7a-e287-4faf-baf4-59762d804afe/1/256",
+      "https://api.vrchat.cloud/api/1/image/file_56d5999d-f0cc-487c-86d9-0d9b1636c4ec/2/256",
     alt: "thumbnail of avatar",
     collage: [
       {
