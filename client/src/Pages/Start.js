@@ -26,7 +26,7 @@ export default function Start() {
         <h2 className="subtitle">Twitch</h2>
         <iframe
           className="stream"
-          src="https://player.twitch.tv/?channel=EroForce&parent=localhost"
+          src="https://player.twitch.tv/?channel=EroForce&parent=ero3dvrc.herokuapp.com"
           height="500"
           width="1000"
           title="EroForce Twitch"
