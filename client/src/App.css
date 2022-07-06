@@ -199,6 +199,12 @@ a {
   -ms-overflow-style: none; /* For Internet Explorer and Edge */
 }
 
+.container {
+}
+.stream {
+  margin: auto;
+}
+
 @media screen and (max-width: 1650px) {
   .content {
     padding-top: 10rem;

@@ -21,11 +21,21 @@ export default function Start() {
           or edits to your current model let me know!
         </p>
       </div>
-      <div className=" container">
-        <h2 className="subtitle">Contact</h2>
-        <p>....</p>
+      <div className="container">
+        {/* <p>....</p> */}
+        <h2 className="subtitle">Twitch</h2>
+        <iframe
+          className="stream"
+          src="https://player.twitch.tv/?channel=EroForce&parent=localhost"
+          height="500"
+          width="1000"
+          title="EroForce Twitch"
+          allowfullscreen
+        ></iframe>
+
         <br />
-        <div className="social ">
+        <h2 className="subtitle">Contact</h2>
+        <div className="social">
           <a href="https://github.com/ajlineb">
             <img src={git} alt="github logo" className="duration-300"></img>
           </a>
