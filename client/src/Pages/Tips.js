@@ -61,7 +61,7 @@ export default function Tips() {
         <p>Click below for detailed info</p>
         <Link
           to="trouble"
-          className="text-xs font-semibold italic text-rose-500"
+          className="text-xs font-semibold italic text-yellow-300"
         >
           ~Extended Trouble Shooting Info~
         </Link>
@@ -69,13 +69,13 @@ export default function Tips() {
         <div className="p-3">
           <img src={caution} alt="Unity Tips" className="m-auto"></img>
         </div>
-        <div className="pb-5" />
-        <p className="text-justify">
+        <div className="pb-5 bg-yellow-300 rounded" />
+        <p className="text-justify pt-2 text-shadow-warn">
           This is a source for problems I have run into in the past and maybe
           you are having trouble with now.
         </p>
         <br></br>
-        <p className="text-justify">
+        <p className="text-center text-shadow-warn">
           I hope that whatever error your having can be solved here!
         </p>
       </div>
