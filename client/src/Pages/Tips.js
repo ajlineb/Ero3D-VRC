@@ -69,7 +69,7 @@ export default function Tips() {
         <div className="p-3">
           <img src={caution} alt="Unity Tips" className="m-auto"></img>
         </div>
-        <div className="pb-5 bg-yellow-300 rounded" />
+        <div className="pb-5 bg-yellow-300 rounded outline outline-offset-1 outline-3 outline-neutral-900" />
         <p className="text-justify pt-2 text-shadow-warn">
           This is a source for problems I have run into in the past and maybe
           you are having trouble with now.
