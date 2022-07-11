@@ -4,6 +4,7 @@ import Blender from "../utils/social_Icons/blender_logo.png";
 import blenderImage from "../images/Blender.PNG";
 import Unity from "../utils/social_Icons/unity.png";
 import unityImage from "../images/Unity.png";
+import caution from "../images/caution.png";
 import data from "../utils/images";
 
 export default function Tips() {
@@ -23,7 +24,7 @@ export default function Tips() {
           ~Extended Blender Info~
         </Link>
         <div className="pb-10" />
-        <div className="p-3">
+        <div className="p-3 m-auto">
           <img
             src={blenderImage}
             alt="Blender Tips"
@@ -32,7 +33,7 @@ export default function Tips() {
         </div>
 
         <div className="pb-10" />
-        <a href="https://www.blender.org/">
+        <a href="https://www.blender.org/" className="m-auto">
           <img src={Blender} alt="Blender logo" width="900" height="900"></img>
         </a>
       </div>
@@ -43,7 +44,7 @@ export default function Tips() {
           ~Extended Unity Info~
         </Link>
         <div className="pb-10" />
-        <div className="p-3">
+        <div className="p-3 m-auto">
           <img
             src={unityImage}
             alt="Unity Tips"
@@ -51,7 +52,7 @@ export default function Tips() {
           ></img>
         </div>
         <div className="pb-10" />
-        <a href="https://unity.com/">
+        <a href="https://unity.com/" className="m-auto">
           <img src={Unity} alt="Blender logo" width="900" height="900"></img>
         </a>
       </div>
@@ -64,6 +65,19 @@ export default function Tips() {
         >
           ~Extended Trouble Shooting Info~
         </Link>
+        <div className="pb-10" />
+        <div className="p-3">
+          <img src={caution} alt="Unity Tips" className="m-auto"></img>
+        </div>
+        <div className="pb-5" />
+        <p className="text-justify">
+          This is a source for problems I have run into in the past and maybe
+          you are having trouble with now.
+        </p>
+        <br></br>
+        <p className="text-justify">
+          I hope that whatever error your having can be solved here!
+        </p>
       </div>
     </div>
   );
