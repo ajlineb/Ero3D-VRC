@@ -26,6 +26,9 @@ import Home from "./Pages/Home";
 import Collections from "./Pages/Collections";
 import Friends from "./Pages/Friends";
 import Tips from "./Pages/Tips";
+import Blender from "./Pages/Blender";
+import Unity from "./Pages/Unity";
+import Trouble from "./Pages/Trouble";
 
 //Graphql api endpoint
 const httpLink = createHttpLink({
@@ -62,6 +65,9 @@ const App = () => {
           <Route exact path="/collections" element={<Collections />}></Route>
           <Route exact path="/friends" element={<Friends />}></Route>
           <Route exact path="/tips" element={<Tips />}></Route>
+          <Route exact path="/blender" element={<Blender />}></Route>
+          <Route exact path="/unity" element={<Unity />}></Route>
+          <Route exact path="/trouble" element={<Unity />}></Route>
         </Routes>
         <Footer />
       </Router>
