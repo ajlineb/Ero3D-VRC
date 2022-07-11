@@ -65,9 +65,9 @@ const App = () => {
           <Route exact path="/collections" element={<Collections />}></Route>
           <Route exact path="/friends" element={<Friends />}></Route>
           <Route exact path="/tips" element={<Tips />}></Route>
-          <Route exact path="/blender" element={<Blender />}></Route>
-          <Route exact path="/unity" element={<Unity />}></Route>
-          <Route exact path="/trouble" element={<Unity />}></Route>
+          <Route exact path="/tips/blender" element={<Blender />}></Route>
+          <Route exact path="/tips/unity" element={<Unity />}></Route>
+          <Route exact path="/tips/trouble" element={<Unity />}></Route>
         </Routes>
         <Footer />
       </Router>
