@@ -29,7 +29,12 @@ export default function Footer() {
             <span className="source-code">Source Code</span>
           </a>
         </p>
-        <p className="closing">© 2022 </p>
+        <p className="closing">
+          © 2022 <br></br>
+          <span className="text-xs italic text-slate-400">
+            Last Updated: 08/10/2022 1:28 am EDT
+          </span>
+        </p>
       </div>
     </div>
   );
