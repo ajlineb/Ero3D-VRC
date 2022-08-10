@@ -188,6 +188,14 @@ export default function Collections() {
                   $35.00+
                 </td>
               </tr>
+              <tr>
+                <td className="border border-slate-500 bg-indigo-300 p-2">
+                  Custom Clothing/Accessories
+                </td>
+                <td className="border border-slate-500 bg-indigo-800 p-1">
+                  $25.00+
+                </td>
+              </tr>
             </tbody>
           </table>
 
@@ -224,6 +232,17 @@ export default function Collections() {
             <span className="font-black works-info">Custom Hair: </span>
             Able to make hair from scratch, add bones and weight paint. UVs will
             be setup too for textures.
+          </p>
+          <br className="m-5" />
+          <p className="text-justify ">
+            <span className="font-black works-info">
+              Custom Clothing/Accessories:{" "}
+            </span>
+            I can create some simple clothing like shirts, bras, underwear,
+            thigh highs, collars, etc.. from scratch to match the description
+            you are looking for. This will include UV Mapping, texture works,
+            and weight painting. Simple items starting $25, more complex items
+            will be more.
           </p>
         </div>
       </div>
