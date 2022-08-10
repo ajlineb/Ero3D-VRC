@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Blender() {
   return (
@@ -6,11 +7,11 @@ export default function Blender() {
       <div className="centerInfo container">
         <h2 className="subtitle">Blender Basics!</h2>
         <div>
-          <a href="http://localhost:3000/#/tips">
+          <Link to="/tips">
             <button className="bg-orange-500 shadow-lg shadow-orange-500/50 rounded pl-2 pr-2 pt-1 pb-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-500 hover:shadow-indigo-500/50 duration-300">
               Back
             </button>
-          </a>
+          </Link>
         </div>
         <div className="flex flex-wrap justify-evenly">
           <div className="p-4">
