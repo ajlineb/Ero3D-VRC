@@ -21,7 +21,7 @@ export default function Friends() {
             className={`rounded-l-md p-3 flex justify-center items-center ${bg}`}
           >
             <img
-              className={`rounded-md shadow-lg ${shadow}`}
+              className={`rounded-md shadow-lg object-fill h-48 w-96 ${shadow}`}
               src={d.thumbnail}
               alt={d.thumbnail}
             ></img>
