@@ -7,7 +7,7 @@ export default function Unity() {
         <h2 className="subtitle">Unity Basics!</h2>
         <div>
           <a href="http://localhost:3000/#/tips">
-            <button className="bg-sky-500 shadow-lg shadow-sky-500/50 rounded p-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-500 hover:shadow-indigo-500/50 duration-300">
+            <button className="bg-sky-500 shadow-lg shadow-sky-500/50 rounded pl-2 pr-2 pt-1 pb-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-500 hover:shadow-indigo-500/50 duration-300">
               Back
             </button>
           </a>
@@ -18,13 +18,11 @@ export default function Unity() {
             <p>Useful tips here!</p>
           </div>
           <div className="p-4">
-            <h2 className="text-xl p-2 text-teal-500">Tips For Physics</h2>
+            <h2 className="text-xl p-2 text-teal-500">Tips For Attachments</h2>
             <p>Useful tips here!</p>
           </div>
           <div className="p-4">
-            <h2 className="text-xl p-2 text-cyan-500">
-              Helpful Testing Software
-            </h2>
+            <h2 className="text-xl p-2 text-cyan-500">Helpful Software</h2>
             <p>Useful tips here!</p>
           </div>
         </div>

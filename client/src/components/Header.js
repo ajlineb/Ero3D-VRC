@@ -21,14 +21,14 @@ export default function Header() {
   });
 
   return (
-    <div className={`header flex flex-row flex-wrap  ${transparent}`}>
+    <div className={`header flex flex-row flex-wrap ${transparent}`}>
       <div className=" basis-1/4">
         <h1 className="title">ERO 3D VRC</h1>
       </div>
-      <div className="  basis-1/2">
+      <div className="basis-1/2 flex flex-wrap justify-evenly">
         <NavBar />
       </div>
-      <div className=" basis-1/4">
+      <div className="basis-1/4">
         <Login />
       </div>
     </div>
