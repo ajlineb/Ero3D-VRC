@@ -82,7 +82,7 @@ export default function Tips() {
         </p>
         <br></br>
         <p className="text-center text-shadow-warn">
-          I hope that whatever error your having can be solved here!
+          I hope that whatever error you're having can be solved here!
         </p>
       </div>
     </div>
