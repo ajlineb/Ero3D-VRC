@@ -10,11 +10,11 @@ const data = [
     price: "$45+",
     images: [
       {
-        src: "https://public-files.gumroad.com/lgxz7rx4ci3w3pyw5pylevnusedz",
+        src: "https://public-files.gumroad.com/r7dpfvsi7obxirtljsjgwc55rv6j",
         alt: "Deira Avatar",
       },
       {
-        src: "https://public-files.gumroad.com/zk3ieg55rv4codpny4yn87uaz581",
+        src: "https://public-files.gumroad.com/a0yr78cc67kzhb3vioj6quevc02i",
         alt: "Deira Avatar",
       },
       {

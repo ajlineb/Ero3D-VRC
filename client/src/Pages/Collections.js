@@ -16,6 +16,7 @@ export default function Collections() {
     setClickedImg(pic.src);
   };
 
+  //for the images in the list of avatars (does nothing currently)
   const handleRotationRight = () => {
     console.log("clicked!");
     const totalLength = data.data.length;
@@ -33,7 +34,7 @@ export default function Collections() {
     setClickedImg(newItem);
     setCurrentIndex(newIndex);
   };
-
+  //for the images in the list of avatars (does nothing currently)
   const handelRotationLeft = () => {
     const totalLength = data.data.length;
     if (currentIndex === 0) {
@@ -134,6 +135,12 @@ export default function Collections() {
       </div>
       <div className="rightInfo container">
         <h2 className="subtitle">Pricing</h2>
+        <br />
+        <p className="text-center font-black text-slate-400">
+          All comissions are by the hour{" "}
+          <span className="text-yellow-400 underline">$10.00/hr</span> unless
+          specified before hand.
+        </p>
         <br />
         <div className="flex flex-col justify-evenly">
           <table className="border-collapse border border-slate-500 table-auto ">
