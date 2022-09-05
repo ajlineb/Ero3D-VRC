@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import Login from "./Login";
 import NavBar from "./Navbar";
+import Status from "./Status";
 
 export default function Header() {
   const [transparent, setTransParent] = useState("transparent"); //for a scrolling animation for the header container
@@ -31,6 +32,7 @@ export default function Header() {
       <div className="basis-1/4">
         <Login />
       </div>
+      <Status />
     </div>
   );
 }

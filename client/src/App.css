@@ -84,9 +84,16 @@ a {
   text-align: right;
 }
 
+.progress-bar {
+  width: 500px;
+  height: 1em;
+  background-color: black;
+  border-radius: 0.5em;
+}
+
 .content {
   height: 100%;
-  padding: 5rem 3rem 6rem 3rem;
+  padding: 8rem 3rem 6rem 3rem;
   text-align: center;
   color: white;
 }
