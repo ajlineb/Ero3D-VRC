@@ -8,7 +8,7 @@ export default function Status() {
         Current Progress on Comission
       </p>
       <div className="progress-bar text-center text-xs pt-1">
-        20 of 20 parts complete
+        18 of 20 parts complete
       </div>
     </div>
   );
