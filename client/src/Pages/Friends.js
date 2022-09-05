@@ -58,7 +58,7 @@ export default function Friends() {
         <br />
         <div className="rounded-md overflow-hidden flex justify-center items-center pb-7">
           <img
-            className="object-fill h-56 w-80 rounded border-4 border-violet-700 shadow-lg shadow-violet-400/50"
+            className="object-fill h-56 w-80 rounded shadow-lg shadow-violet-400/50"
             src={image}
             alt="Ero's Avatar"
           ></img>
