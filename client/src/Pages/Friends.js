@@ -1,6 +1,7 @@
 import React from "react";
 //import Vrchat from "../utils/apiLogin";
 import data from "../utils/friendsList";
+import image from "../images/ProfilePic_Bunz.gif";
 
 export default function Friends() {
   //for my own mental sanity...
@@ -55,6 +56,13 @@ export default function Friends() {
           (Send me a DM if you are already a friend and want to be on here!)
         </p>
         <br />
+        <div className="rounded-md overflow-hidden flex justify-center items-center pb-7">
+          <img
+            className="object-fill h-56 w-80 rounded border-4 border-violet-700 shadow-lg shadow-violet-400/50"
+            src={image}
+            alt="Ero's Avatar"
+          ></img>
+        </div>
         <p className="text-justify">
           Hello! My name is EroForce but most of my friends just call me Ero. I
           enjoy working with furry avatars and have been for three years now!
