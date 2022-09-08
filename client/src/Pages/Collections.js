@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import data from "../utils/basemodels";
 import Authors from "../components/Carousel";
 import Modal from "../components/modal";
+import authorData from "../utils/avatar_authors";
 
 export default function Collections() {
   //for my own mental sanity...
@@ -131,7 +132,7 @@ export default function Collections() {
       </div>
       <div className="centerInfo container">
         <h2 className="subtitle">Base Models Used</h2>
-        <Authors />
+        <Authors data={authorData} />
       </div>
       <div className="rightInfo container">
         <h2 className="subtitle">Pricing</h2>

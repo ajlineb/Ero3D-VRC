@@ -1,8 +1,8 @@
 //carousel used for showcasing basemodels images
 import React from "react";
-import data from "../utils/avatar_authors";
+//import data from "../utils/avatar_authors";
 
-export default function Carousel() {
+export default function Carousel({ data }) {
   //for my own mental sanity...
   //grid grid-cols-3 is similar to bootstrap with a row and three columns
   //to add gutters you will need gap-x for the gutter amounts

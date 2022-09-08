@@ -1,5 +1,7 @@
 import React from "react";
 import data from "../utils/images";
+import Authors from "../components/Carousel";
+import gumData from "../utils/gumRoadItems";
 
 export default function Home() {
   //for my own mental sanity...
@@ -10,19 +12,19 @@ export default function Home() {
     <div className="content grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8 font-mono">
       <div className="leftInfo container">
         <h2 className="subtitle">List of Future/To come projects</h2>
+        <p>Current list of Commisions:</p>
         <p>
-          Here I will be placing future projects that I am working on for users
-          that want a time frame on when they can start asking for commisions.
+          <span className="italic font-bold text-indigo-400">Paus</span> - in
+          progress
         </p>
-        <br />
         <p>
-          Here I will be placing future projects that I am working on for users
-          that want a time frame on when they can start asking for commisions.
+          <span className="italic font-bold text-blue-400">DawnStar</span>
         </p>
-        <br />
         <p>
-          Here I will be placing future projects that I am working on for users
-          that want a time frame on when they can start asking for commisions.
+          <span className="italic font-bold text-pink-600">Foxy</span>
+        </p>
+        <p>
+          <span className="italic font-bold text-green-400">SilentWhisp</span>
         </p>
       </div>
       <div className="centerInfo container">
@@ -42,12 +44,13 @@ export default function Home() {
         })}
       </div>
       <div className="rightInfo container">
-        <h2 className="subtitle">Resources</h2>
+        <h2 className="subtitle">Items By Me!</h2>
         <p>
-          These resources may very from just the tools I use to work on models
-          to websites and friends that help!
+          Contact me directly for a{" "}
+          <span className="text-purple-500 font-bold underline">discount</span>{" "}
+          on price!
         </p>
-        <p>Might be helpful to make these a data type too...</p>
+        <Authors data={gumData} />
       </div>
     </div>
   );
