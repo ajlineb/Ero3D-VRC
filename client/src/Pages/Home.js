@@ -50,6 +50,7 @@ export default function Home() {
           <span className="text-purple-500 font-bold underline">discount</span>{" "}
           on price!
         </p>
+        <br />
         <Authors data={gumData} />
       </div>
     </div>
