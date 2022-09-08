@@ -38,7 +38,7 @@ export default function Start() {
         <br />
         <h2 className="subtitle">Contact</h2>
         <div className="social">
-          <a href="https://github.com/ajlineb">
+          {/* <a href="https://github.com/ajlineb">
             <img src={git} alt="github logo" className="duration-300"></img>
           </a>
           <a href="https://www.linkedin.com/in/anthjlin/">
@@ -47,7 +47,7 @@ export default function Start() {
               alt="linkedin logo"
               className="duration-300"
             ></img>
-          </a>
+          </a> */}
           <a href="https://vrchat.com/home/user/usr_ac87376c-9a6e-4b48-843d-76483df6cf88">
             <img src={vrc} alt="vrchat logo" className="duration-300"></img>
           </a>
