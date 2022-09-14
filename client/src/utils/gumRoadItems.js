@@ -22,6 +22,29 @@ const data = [
     ],
     url: "https://eroforce.gumroad.com/l/gvcjd",
   },
+  {
+    id: 2,
+    avatarName: "Floofy Tail",
+    author: "EroForce",
+    notes:
+      "This is a thick floofy tail that is fully rigged and has basic textures with an AO map. It includes its unity package.",
+    price: "$7",
+    images: [
+      {
+        src: "https://public-files.gumroad.com/19q07neyde2w80er9msaqauoesp3",
+        alt: "Floofy Tail",
+      },
+      {
+        src: "https://public-files.gumroad.com/variants/2d1nsit7saa87udm8o81w9gdes5q/130f5ff8fc9def419efa0ab94702990112cbf5db75242b0f86f438eeb1072b86",
+        alt: "Floofy Tail",
+      },
+      {
+        src: "https://public-files.gumroad.com/variants/jz0az1h3kfxpkax3pdps727cabfx/130f5ff8fc9def419efa0ab94702990112cbf5db75242b0f86f438eeb1072b86",
+        alt: "Floofy Tail",
+      },
+    ],
+    url: "https://eroforce.gumroad.com/l/kfpkx",
+  },
 ];
 
 export default data;
