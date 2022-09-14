@@ -1,7 +1,7 @@
 :root {
   --main-bg-color: #282c34;
   --main-header-footer-color: #1f2229e5;
-  --calc: calc(18 / 20);
+  --calc: calc(20 / 20);
   --width: var(--calc) * 100;
 }
 
