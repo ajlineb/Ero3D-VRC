@@ -15,7 +15,7 @@ export default function Home() {
         <p>Current list of Commisions:</p>
         <p>
           <span className="italic font-bold text-indigo-400">Paus</span> -
-          Complete
+          <span className=" font-bold text-green-400"> Complete!</span>
         </p>
         <p>
           <span className="italic font-bold text-blue-400">DawnStar</span>

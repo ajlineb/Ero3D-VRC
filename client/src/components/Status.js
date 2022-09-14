@@ -6,7 +6,7 @@ export default function Status() {
     <div className="m-auto pt-2">
       <p className="pb-2 text-center font-black">Current Commission Progress</p>
       <div className="progress-bar text-center text-xs pt-1">
-        Commission complete!
+        Commission Complete!
       </div>
     </div>
   );
