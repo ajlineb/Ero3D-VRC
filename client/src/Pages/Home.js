@@ -14,8 +14,8 @@ export default function Home() {
         <h2 className="subtitle">List of Future/To come projects</h2>
         <p>Current list of Commisions:</p>
         <p>
-          <span className="italic font-bold text-indigo-400">Paus</span> - in
-          progress
+          <span className="italic font-bold text-indigo-400">Paus</span> -
+          Complete
         </p>
         <p>
           <span className="italic font-bold text-blue-400">DawnStar</span>
