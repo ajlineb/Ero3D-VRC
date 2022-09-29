@@ -1,7 +1,8 @@
 :root {
   --main-bg-color: #282c34;
   --main-header-footer-color: #1f2229e5;
-  --calc: calc(20 / 20);
+  /* make it at least .1 so the animation still works */
+  --calc: calc(0.1 / 20);
   --width: var(--calc) * 100;
 }
 
