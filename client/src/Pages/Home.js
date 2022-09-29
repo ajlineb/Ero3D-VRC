@@ -52,12 +52,14 @@ export default function Home() {
                 id={d.id}
                 className="basis-1/2 ml-auto mr-auto mt-1 mb-1 pl-1 pr-1 "
               >
-                <h2 className="pb-2 text-lg">{d.name}</h2>
+                <h2 className={`pb-2 text-lg ${d.color} font-black`}>
+                  {d.name}
+                </h2>
                 <picture>
                   <source srcSet={d.src} type="image/webp"></source>
                   <source srcSet={d.src2} type="image/webp"></source>
                   <img
-                    className="pointer object-cover h-72 w-96 rounded-lg shadow-xl shadow-indigo-500/50"
+                    className={`pointer object-cover h-72 w-96 rounded-lg shadow-xl ${d.shadow}`}
                     src={d.src2}
                     alt={d.alt}
                     onClick={() => handleClick(d, index)}
