@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 export default function Status() {
-  const precent = 10;
+  const precent = 10; //was going to be used for the status
   //when updating the completion info use "0 of 20 complete" or "Commission complete!"
   return (
     <div className="m-auto pt-2">
