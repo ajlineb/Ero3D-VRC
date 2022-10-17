@@ -32,7 +32,7 @@ export default function Footer() {
         <p className="closing">
           © 2022 <br></br>
           <span className="text-xs italic text-slate-400">
-            Last Updated: 09/29/2022 4:50 pm EDT
+            Last Updated: 10/17/2022 8:03 am EDT
           </span>
         </p>
       </div>
