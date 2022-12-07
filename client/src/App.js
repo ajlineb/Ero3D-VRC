@@ -57,21 +57,19 @@ import Trouble from "./Pages/Trouble";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Router basename="">
-        <Header />
-        <Routes>
-          <Route exact path="/" element={<Start />}></Route>
-          <Route exact path="/home" element={<Home />}></Route>
-          <Route exact path="/collections" element={<Collections />}></Route>
-          <Route exact path="/friends" element={<Friends />}></Route>
-          <Route exact path="/tips" element={<Tips />}></Route>
-          <Route exact path="/tips/blender" element={<Blender />}></Route>
-          <Route exact path="/tips/unity" element={<Unity />}></Route>
-          <Route exact path="/tips/trouble" element={<Trouble />}></Route>
-        </Routes>
-        <Footer />
-      </Router>
+    <BrowserRouter basename="">
+      <Header />
+      <Routes>
+        <Route exact path="/" element={<Start />}></Route>
+        <Route exact path="/home" element={<Home />}></Route>
+        <Route exact path="/collections" element={<Collections />}></Route>
+        <Route exact path="/friends" element={<Friends />}></Route>
+        <Route exact path="/tips" element={<Tips />}></Route>
+        <Route exact path="/tips/blender" element={<Blender />}></Route>
+        <Route exact path="/tips/unity" element={<Unity />}></Route>
+        <Route exact path="/tips/trouble" element={<Trouble />}></Route>
+      </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
