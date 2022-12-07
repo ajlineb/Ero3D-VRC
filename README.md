@@ -18,7 +18,7 @@ This application is designed for helping Vrchat users with developing their own 
 
 GitHub repository: https://github.com/ajlineb/ero3d-vrc
 
-Webpage: https://ero3dvrc.herokuapp.com/
+Webpage: https://ero3dvrc.onrender.com/
 
 ## Usage
 
