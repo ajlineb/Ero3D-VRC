@@ -24,6 +24,7 @@ function Navbar() {
   }
 
   const path = window.location.href.split("/");
+  console.log(path);
   return (
     <nav>
       <ul className="nav-container">
@@ -32,12 +33,12 @@ function Navbar() {
             <Link
               to={tab}
               key={tab.id}
-              active={active === tab}
               onClick={() => {
+                console.log(path[4]);
                 setActive(tab);
               }}
               className={
-                path[4] === tab
+                path[3] === tab
                   ? "bg-teal-500 shadow-lg shadow-teal-500/50 rounded p-1 hover:bg-indigo-500 hover:shadow-indigo-500/50 duration-300"
                   : "p-1"
               }
