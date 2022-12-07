@@ -27,7 +27,7 @@ export default function Start() {
         <iframe
           className="stream"
           src={
-            "https://player.twitch.tv/?channel=EroForce&parent=ero3dvrc.herokuapp.com"
+            "https://player.twitch.tv/?channel=EroForce&parent=ero3dvrc.onrender.com"
           }
           height="500"
           width="1000"
