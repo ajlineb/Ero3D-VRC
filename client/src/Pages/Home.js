@@ -37,7 +37,7 @@ export default function Home() {
           <span className=" font-bold text-green-400"> Complete!</span>
         </p>
         <p>
-          <span className="italic font-bold text-blue-400">DawnStar</span> -
+          <span className="italic font-bold text-orange-400">DawnStar</span> -
           <span className=" font-bold text-yellow-400"> In Progress!</span>
         </p>
         <p>

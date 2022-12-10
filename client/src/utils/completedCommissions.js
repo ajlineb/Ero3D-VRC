@@ -28,7 +28,7 @@ const data = [
   },
   {
     id: 2,
-    name: "Pause",
+    name: "Paus",
     images: [
       {
         id: 1,
@@ -69,6 +69,22 @@ const data = [
         color: `text-indigo-400`,
         shadow: `shadow-indigo-400/50`,
         alt: "Pause clothing",
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "Silent Whisp",
+    images: [
+      {
+        id: 1,
+        name: "Silent",
+        src: require("../images/Render.webp"),
+        src2: require("../images/Render.png"),
+        description: "Hair Creation",
+        color: `text-green-400`,
+        shadow: `shadow-indigo-400/50`,
+        alt: "Pause Hair",
       },
     ],
   },
