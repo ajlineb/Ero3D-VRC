@@ -15,13 +15,13 @@ export default function Comissions(props) {
 
   //these handle the left and right click buttons
   const handleComClickLeft = () => {
-    console.log("left!");
+    //console.log("left!");
     if (currentCommission !== 0) SetCurrentCommission(currentCommission - 1);
     else SetCurrentCommission(data2.length - 1);
   };
 
   const handleComClickRight = () => {
-    console.log("right!");
+    //.log("right!");
     if (currentCommission !== data2.length - 1)
       SetCurrentCommission(currentCommission + 1);
     else SetCurrentCommission(0);
