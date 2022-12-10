@@ -34,7 +34,7 @@ function Navbar() {
               to={tab}
               key={tab.id}
               onClick={() => {
-                console.log(path[4]);
+                //console.log(path[4]);
                 setActive(tab);
               }}
               className={
