@@ -47,9 +47,7 @@ export default function Home() {
       </div>
       <div className="centerInfo container">
         <h2 className="subtitle">Completed Commisions!</h2>
-        <div className="flex flex-wrap items-stretch grow">
-          <Comissions clickedImg2={setIncoming} />
-        </div>
+        <Comissions clickedImg2={setIncoming} />
       </div>
       <div className="rightInfo container">
         <h2 className="subtitle">Items By Me!</h2>
