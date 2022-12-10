@@ -1,12 +1,14 @@
 const Modal = ({
   clickedImg,
   setClickedImg,
+  setincoming,
   handelRotationRight,
   handelRotationLeft,
 }) => {
   const handleClick = (e) => {
     if (e.target.classList.contains("dismiss")) {
       setClickedImg(null);
+      setincoming(null);
     }
   };
 

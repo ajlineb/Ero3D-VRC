@@ -36,14 +36,18 @@ export default function Comissions(props) {
       <div className="flex flex-wrap justify-evenly">
         <button
           onClick={handleComClickLeft}
-          className="bg-teal-500 rounded px-3 hover:bg-indigo-500"
+          className="bg-teal-500 rounded px-3 hover:bg-indigo-500 font-bold text-xl"
         >{`<`}</button>
         <button
           onClick={handleComClickRight}
-          className="bg-teal-500 rounded px-3 hover:bg-indigo-500"
+          className="bg-teal-500 rounded px-3 hover:bg-indigo-500 font-bold text-xl"
         >{`>`}</button>
       </div>
-
+      <h2
+        className={`pb-2 text-lg ${data2[currentCommission].images[0].color} font-black`}
+      >
+        {data2[currentCommission].name}
+      </h2>
       <div className="flex flex-wrap items-stretch grow">
         {data2[currentCommission].images.map((image) => {
           return (
@@ -52,9 +56,6 @@ export default function Comissions(props) {
               id={image.id}
               className="basis-1/2 ml-auto mr-auto mt-1 mb-1 pl-1 pr-1 "
             >
-              <h2 className={`pb-2 text-lg ${image.color} font-black`}>
-                {image.name}
-              </h2>
               <picture>
                 <source srcSet={image.src} type="image/webp"></source>
                 <source srcSet={image.src2} type="image/webp"></source>

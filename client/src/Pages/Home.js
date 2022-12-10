@@ -60,7 +60,11 @@ export default function Home() {
         <Authors data={gumData} />
       </div>
       {clickedImg && (
-        <Modal clickedImg={incoming} setClickedImg={setClickedImg} />
+        <Modal
+          clickedImg={incoming}
+          setClickedImg={setClickedImg}
+          setincoming={setIncoming}
+        />
       )}
     </div>
   );
