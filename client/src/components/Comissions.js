@@ -1,23 +1,19 @@
 import React, { useEffect, useState } from "react";
 import data2 from "../utils/completedCommissions";
-import data from "../utils/images";
 
 export default function Comissions(props) {
-  //handles image lightbox
   //const [clickedImg, setClickedImg] = useState(null);  LOOK IM LEAVING THIS HEAR SO YOU LEARN FROM YOUR MISTAKE.
   //                                                     DONT USE A USESTATE IF YOU DONT NEED TO, THATS JUST GOING TO
   //                                                     CAUSE PROBLEMS
 
   const [currentCommission, SetCurrentCommission] = useState(0);
 
-  useEffect(() => {
-    console.log(data2, data2.length);
-  });
-
+  //this handles wich image is clicked on
   const handleClick = (pic, index) => {
     props.clickedImg2(pic.src);
   };
 
+  //these handle the left and right click buttons
   const handleComClickLeft = () => {
     console.log("left!");
     if (currentCommission !== 0) SetCurrentCommission(currentCommission - 1);
