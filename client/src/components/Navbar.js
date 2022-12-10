@@ -24,7 +24,7 @@ function Navbar() {
   }
 
   const path = window.location.href.split("/");
-  console.log(path);
+  //console.log(path);
   return (
     <nav>
       <ul className="nav-container">

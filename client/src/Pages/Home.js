@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import data from "../utils/images";
 import Authors from "../components/Carousel";
 import gumData from "../utils/gumRoadItems";
 import Modal from "../components/modal";
+
+import Comissions from "../components/Comissions";
 
 export default function Home() {
   //for my own mental sanity...
@@ -10,11 +12,12 @@ export default function Home() {
   //to add gutters you will need gap-x for the gutter amounts
 
   //handles image lightbox
-  const [clickedImg, setClickedImg] = useState(null);
+  const [clickedImg, setClickedImg] = useState();
+  const [incoming, setIncoming] = useState();
 
-  const handleClick = (pic, index) => {
-    setClickedImg(pic.src);
-  };
+  useEffect(() => {
+    setClickedImg(incoming);
+  }, [incoming]);
 
   return (
     <div className="content grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8 font-mono">
@@ -45,30 +48,7 @@ export default function Home() {
       <div className="centerInfo container">
         <h2 className="subtitle">Completed Commisions!</h2>
         <div className="flex flex-wrap items-stretch grow">
-          {data.map((d, index) => {
-            return (
-              <div
-                key={index}
-                id={d.id}
-                className="basis-1/2 ml-auto mr-auto mt-1 mb-1 pl-1 pr-1 "
-              >
-                <h2 className={`pb-2 text-lg ${d.color} font-black`}>
-                  {d.name}
-                </h2>
-                <picture>
-                  <source srcSet={d.src} type="image/webp"></source>
-                  <source srcSet={d.src2} type="image/webp"></source>
-                  <img
-                    className={`pointer object-cover h-72 w-96 rounded-lg shadow-xl ${d.shadow}`}
-                    src={d.src2}
-                    alt={d.alt}
-                    onClick={() => handleClick(d, index)}
-                  ></img>
-                </picture>
-                <p className="pt-2 text-sm">{d.description}</p>
-              </div>
-            );
-          })}
+          <Comissions clickedImg2={setIncoming} />
         </div>
       </div>
       <div className="rightInfo container">
@@ -82,7 +62,7 @@ export default function Home() {
         <Authors data={gumData} />
       </div>
       {clickedImg && (
-        <Modal clickedImg={clickedImg} setClickedImg={setClickedImg} />
+        <Modal clickedImg={incoming} setClickedImg={setClickedImg} />
       )}
     </div>
   );
