@@ -33,6 +33,16 @@ const data = [
       {
         id: 1,
         name: "Paus",
+        src: require("../images/PausRender.webp"),
+        src2: require("../images/PausRender.png"),
+        description: "Render of Paus",
+        color: `text-indigo-400`,
+        shadow: `shadow-indigo-400/50`,
+        alt: "Paus Render",
+      },
+      {
+        id: 2,
+        name: "Paus",
         src: require("../images/Paus_Hair.webp"),
         src2: require("../images/Paus_Hair.png"),
         description: "Hair Creation",
@@ -41,7 +51,7 @@ const data = [
         alt: "Pause Hair",
       },
       {
-        id: 2,
+        id: 3,
         name: "Paus",
         src: require("../images/Shirt_Shorts.webp"),
         src2: require("../images/Shirt_Shorts.PNG"),
@@ -51,7 +61,7 @@ const data = [
         alt: "Pause clothing",
       },
       {
-        id: 3,
+        id: 4,
         name: "Paus",
         src: require("../images/Leggings.webp"),
         src2: require("../images/Leggings.PNG"),
@@ -61,7 +71,7 @@ const data = [
         alt: "Pause clothing",
       },
       {
-        id: 4,
+        id: 5,
         name: "Paus",
         src: require("../images/Paus_Panties.webp"),
         src2: require("../images/Paus_Panties.png"),
