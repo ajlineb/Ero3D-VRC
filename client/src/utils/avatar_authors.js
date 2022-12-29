@@ -78,7 +78,7 @@ const data = [
     avatarName: "Nanachi",
     author: "Zy0n7",
     notes:
-      "This model now includes an avatar for VRChat (only default clothes included currently). Please note the base model is not rigged.",
+      "This model now includes an avatar for VRChat (only default clothes included currently) these are bonus files and provided as is, no guarantee or support is provided. Avatar is for private use and is not allowed to be uploaded publicly. Uses the new physics bones system.",
     price: "$55",
     images: [
       {
