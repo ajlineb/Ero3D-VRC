@@ -82,7 +82,7 @@ const data = [
     price: "$55",
     images: [
       {
-        src: "https://public-files.gumroad.com/824fd8s4hea1zysji3emblxq4u50",
+        src: "https://public-files.gumroad.com/ibmdyvt0449qxxvuaqsj8l4mnuny",
         alt: "Hyenid avatar",
       },
       {
