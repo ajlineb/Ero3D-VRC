@@ -345,6 +345,8 @@ a {
 @media screen and (max-width: 950px) {
   .content {
     padding-top: 13rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .navs {
     font-size: 1rem;
