@@ -2,6 +2,7 @@ import React from "react";
 //import Vrchat from "../utils/apiLogin";
 import data from "../utils/friendsList";
 import image from "../images/ProfilePic_Bunz.gif";
+import { Helmet } from "react-helmet";
 
 export default function Friends() {
   //for my own mental sanity...
@@ -38,48 +39,56 @@ export default function Friends() {
   };
 
   return (
-    <div className="content grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8 font-mono">
-      <div className="leftInfo container">
-        <h2 className="subtitle">
-          Helpful Friends on VRC for Avatar Development
-        </h2>
-        <p>helpful user *Name*</p>
-      </div>
-      <div className="centerInfo container">
-        <h2 className="subtitle">Awesome Friends!</h2>
-        {mapping()}
-      </div>
-      <div className="rightInfo container">
-        <h2 className="subtitle">Are you a friend yet?</h2>
-        <p className="font-black">Lets get to know each other!</p>
-        <p className="text-xs font-semibold italic text-indigo-500">
-          (Send me a DM if you are already a friend and want to be on here!)
-        </p>
-        <br />
-        <div className="rounded-md overflow-hidden flex justify-center items-center pb-7">
-          <img
-            className="object-fill h-56 w-80 rounded shadow-lg shadow-violet-400/50"
-            src={image}
-            alt="Ero's Avatar"
-          ></img>
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Ero3D - Friends</title>
+        <link rel="" href="https://ero3dvrc.onrender.com/friends" />
+      </Helmet>
+      <div className="content grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8 font-mono">
+        <div className="leftInfo container">
+          <h2 className="subtitle">
+            Helpful Friends on VRC for Avatar Development
+          </h2>
+          <p>helpful user *Name*</p>
         </div>
-        <p className="text-justify">
-          Hello! My name is EroForce but most of my friends just call me Ero. I
-          enjoy working with furry avatars and have been for three years now!
-        </p>
-        <br />
-        <p className="text-justify">
-          I have done a lot of sculpting of avatar features, creating
-          blendshapes, body part switches, hair creation that is fully rigged,
-          and much more!
-        </p>
-        <br />
-        <p className="text-justify">
-          As a side note I even develop websites from frontend to backend server
-          development. If you would like to hangout and chat in VRChat just send
-          a DM to EroForce on Discord!
-        </p>
+        <div className="centerInfo container">
+          <h2 className="subtitle">Awesome Friends!</h2>
+          {mapping()}
+        </div>
+        <div className="rightInfo container">
+          <h2 className="subtitle">Are you a friend yet?</h2>
+          <p className="font-black">Lets get to know each other!</p>
+          <p className="text-xs font-semibold italic text-indigo-500">
+            (Send me a DM if you are already a friend and want to be on here!)
+          </p>
+          <br />
+          <div className="rounded-md overflow-hidden flex justify-center items-center pb-7">
+            <img
+              className="object-fill h-56 w-80 rounded shadow-lg shadow-violet-400/50"
+              src={image}
+              alt="Ero's Avatar"
+            ></img>
+          </div>
+          <p className="text-justify">
+            Hello! My name is EroForce but most of my friends just call me Ero.
+            I enjoy working with furry avatars and have been for three years
+            now!
+          </p>
+          <br />
+          <p className="text-justify">
+            I have done a lot of sculpting of avatar features, creating
+            blendshapes, body part switches, hair creation that is fully rigged,
+            and much more!
+          </p>
+          <br />
+          <p className="text-justify">
+            As a side note I even develop websites from frontend to backend
+            server development. If you would like to hangout and chat in VRChat
+            just send a DM to EroForce on Discord!
+          </p>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
