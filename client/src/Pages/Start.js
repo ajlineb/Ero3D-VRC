@@ -4,12 +4,16 @@ import git from "../utils/social_Icons/github.svg";
 import linkedin from "../utils/social_Icons/linkedin.svg";
 import youtube from "../utils/social_Icons/youtube.svg";
 import vrc from "../utils/social_Icons/vrchat-logo-vector.svg";
+import { useWindowDimensions } from "react-native";
+import Twitch from "../components/Twitch";
 import { Helmet } from "react-helmet";
 
 export default function Start() {
   //for my own mental sanity...
   //grid grid-cols-3 is similar to bootstrap with a row and three columns
   //to add gutters you will need gap-x for the gutter amounts
+
+  const { height, width } = useWindowDimensions();
 
   return (
     <>
@@ -31,16 +35,11 @@ export default function Start() {
         <div className="container">
           {/* <p>....</p> */}
           <h2 className="subtitle">Twitch</h2>
-          <iframe
-            className="stream"
-            src={
-              "https://player.twitch.tv/?channel=EroForce&parent=ero3dvrc.onrender.com"
-            }
-            height="500"
-            width="1000"
-            title="EroForce Twitch"
-            allowfullscreen
-          ></iframe>
+          {width > 800 ? (
+            <Twitch height={500} width={1000} />
+          ) : (
+            <Twitch height={500} width={350} />
+          )}
 
           <br />
           <h2 className="subtitle">Contact</h2>
