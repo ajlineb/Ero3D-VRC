@@ -1,5 +1,7 @@
 import React from "react";
 
+//this controles how the twitch player shows
+
 export default function Twitch(props) {
   return (
     <iframe
