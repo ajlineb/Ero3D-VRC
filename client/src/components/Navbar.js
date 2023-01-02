@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-function Navbar() {
+function Navbar(props) {
   const tabs = ["", "home", "collections", "friends", "tips"];
   const [active, setActive] = useState(tabs[0]);
 
@@ -26,29 +26,35 @@ function Navbar() {
   const path = window.location.href.split("/");
   //console.log(path);
   return (
-    <nav>
-      <ul className="nav-container">
-        {tabs.map((tab) => (
-          <li className="navs">
-            <Link
-              to={tab}
-              key={tab.id}
-              onClick={() => {
-                //console.log(path[4]);
-                setActive(tab);
-              }}
-              className={
-                path[3] === tab
-                  ? "bg-teal-500 shadow-lg shadow-teal-500/50 rounded p-1 hover:bg-indigo-500 hover:shadow-indigo-500/50 duration-300"
-                  : "p-1"
-              }
-            >
-              {handleTab(tab)}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </nav>
+    <>
+      {props.isSmall ? (
+        <></>
+      ) : (
+        <nav>
+          <ul className="nav-container">
+            {tabs.map((tab) => (
+              <li className="navs">
+                <Link
+                  to={tab}
+                  key={tab.id}
+                  onClick={() => {
+                    //console.log(path[4]);
+                    setActive(tab);
+                  }}
+                  className={
+                    path[3] === tab
+                      ? "bg-teal-500 shadow-lg shadow-teal-500/50 rounded p-1 hover:bg-indigo-500 hover:shadow-indigo-500/50 duration-300"
+                      : "p-1"
+                  }
+                >
+                  {handleTab(tab)}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
+    </>
   );
 }
 
