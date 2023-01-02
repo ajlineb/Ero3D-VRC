@@ -35,7 +35,7 @@ export default function Start() {
         <div className="container">
           {/* <p>....</p> */}
           <h2 className="subtitle">Twitch</h2>
-          {width > 800 ? (
+          {width > 1000 ? (
             <Twitch height={500} width={1000} />
           ) : (
             <Twitch height={500} width={350} />

@@ -302,6 +302,31 @@ a {
   margin: auto;
 }
 
+/* This is for the hamburger menu, menuNav is for everything inside and its css, the showmenu is what the container looks and transitions with */
+.menuNav {
+  transition: width 600ms, background-color 800ms;
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 200px;
+  z-index: 9;
+}
+
+.menuNav.showMenu {
+  transition: width 600ms;
+  width: 100%;
+  background-color: var(--main-header-footer-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 @keyframes slide {
   0% {
     transform: translateX(0%);
