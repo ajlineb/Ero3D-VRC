@@ -48,7 +48,13 @@ export default function Home() {
             <span className=" font-bold text-yellow-400"> In Progress!</span>
           </p>
           <p>
-            <span className="italic font-bold text-pink-600">Foxy</span> -
+            <span className="italic font-bold text-pink-600">
+              AtlasTheDrunk
+            </span>{" "}
+            -<span className=" font-bold text-slate-400"> In Que</span>
+          </p>
+          <p>
+            <span className="italic font-bold text-pink-400">Foxy</span> -
             <span className=" font-bold text-slate-400"> In Que</span>
           </p>
         </div>
