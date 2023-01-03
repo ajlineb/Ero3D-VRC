@@ -54,7 +54,7 @@ export default function Home() {
                     {comm.complete !== null ? (
                       <>{comm.complete ? <>Complete!</> : <>In Progress!</>}</>
                     ) : (
-                      <>In Que</>
+                      <>In Queue</>
                     )}
                   </span>
                 </p>
