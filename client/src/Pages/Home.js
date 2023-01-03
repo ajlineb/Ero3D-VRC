@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import data from "../utils/images";
+import data from "../utils/commList";
 import Authors from "../components/Carousel";
 import gumData from "../utils/gumRoadItems";
 import Modal from "../components/modal";
@@ -31,32 +31,36 @@ export default function Home() {
         <div className="leftInfo container">
           <h2 className="subtitle">List of Future/To come projects</h2>
           <p>Current list of Commisions:</p>
-          <p>
-            <span className="italic font-bold text-purple-600">PJBomb2</span> -
-            <span className=" font-bold text-green-400"> Complete!</span>
-          </p>
-          <p>
-            <span className="italic font-bold text-indigo-400">Paus</span> -
-            <span className=" font-bold text-green-400"> Complete!</span>
-          </p>
-          <p>
-            <span className="italic font-bold text-green-400">SilentWhisp</span>{" "}
-            -<span className=" font-bold text-green-400"> Complete!</span>
-          </p>
-          <p>
-            <span className="italic font-bold text-orange-400">DawnStar</span> -
-            <span className=" font-bold text-yellow-400"> In Progress!</span>
-          </p>
-          <p>
-            <span className="italic font-bold text-pink-600">
-              AtlasTheDrunk
-            </span>{" "}
-            -<span className=" font-bold text-slate-400"> In Que</span>
-          </p>
-          <p>
-            <span className="italic font-bold text-pink-400">Foxy</span> -
-            <span className=" font-bold text-slate-400"> In Que</span>
-          </p>
+          {/* maps out the data list of comms, checking if they are complete, in progress, or in que */}
+          {data.map((comm) => {
+            const isDone = (complete) => {
+              if (complete === null) {
+                return "text-slate-400";
+              }
+              if (complete) {
+                return "text-green-400";
+              } else return "text-yellow-400";
+            };
+            return (
+              <>
+                <p>
+                  <span
+                    key={comm.id}
+                    className={`italic font-bold text-${comm.color}-${comm.weight}`}
+                  >
+                    {comm.name}
+                  </span>{" "}
+                  <span className={`font-bold ${isDone(comm.complete)}`}>
+                    {comm.complete !== null ? (
+                      <>{comm.complete ? <>Complete!</> : <>In Progress!</>}</>
+                    ) : (
+                      <>In Que</>
+                    )}
+                  </span>
+                </p>
+              </>
+            );
+          })}
         </div>
         <div className="centerInfo container">
           <h2 className="subtitle">Completed Commisions!</h2>
