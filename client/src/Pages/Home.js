@@ -46,7 +46,7 @@ export default function Home() {
                 <p>
                   <span
                     key={comm.id}
-                    className={`italic font-bold text-${comm.color}-${comm.weight}`}
+                    className={`italic font-bold ${comm.color}`}
                   >
                     {comm.name}
                   </span>{" "}
