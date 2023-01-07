@@ -41,6 +41,12 @@ const data = [
     complete: null,
     color: "text-pink-400",
   },
+  {
+    id: 8,
+    name: "PjBomb",
+    complete: null,
+    color: "text-purple-600",
+  },
 ];
 
 export default data;
