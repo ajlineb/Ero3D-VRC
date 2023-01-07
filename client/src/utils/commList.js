@@ -20,7 +20,7 @@ const data = [
   {
     id: 4,
     name: "DawnStar",
-    complete: false,
+    complete: true,
     color: "text-orange-400",
   },
   {
