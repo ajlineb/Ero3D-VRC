@@ -32,11 +32,11 @@ export default function Comissions(props) {
       <div className="flex flex-wrap justify-evenly">
         <button
           onClick={handleComClickLeft}
-          className="bg-teal-500 rounded px-3 hover:bg-indigo-500 font-bold text-xl"
+          className="bg-teal-500 rounded px-3 hover:bg-indigo-500 font-bold text-xl hover:scale-105 duration-300"
         >{`<`}</button>
         <button
           onClick={handleComClickRight}
-          className="bg-teal-500 rounded px-3 hover:bg-indigo-500 font-bold text-xl"
+          className="bg-teal-500 rounded px-3 hover:bg-indigo-500 font-bold text-xl hover:scale-105 duration-300"
         >{`>`}</button>
       </div>
       <h2
@@ -56,13 +56,13 @@ export default function Comissions(props) {
                 <source srcSet={image.src} type="image/webp"></source>
                 <source srcSet={image.src2} type="image/webp"></source>
                 <img
-                  className={`pointer object-cover h-4/5 w-96 rounded-lg shadow-xl ${image.shadow}`}
+                  className={`pointer object-cover h-4/5 w-96 rounded-lg shadow-xl ${image.shadow} hover:scale-105 duration-300`}
                   src={image.src2}
                   alt={image.alt}
                   onClick={() => handleClick(image, image.id)}
                 ></img>
               </picture>
-              <p className="pt-2 text-sm">{image.description}</p>
+              <p className="pt-2 text-sm font-bold">{image.description}</p>
             </div>
           );
         })}

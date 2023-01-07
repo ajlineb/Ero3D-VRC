@@ -15,7 +15,7 @@ const Modal = ({
   return (
     <>
       <div className="overlay dismiss" onClick={handleClick}>
-        <img className="rounded" src={clickedImg} alt="bigger pic" />
+        <img className="rounded scale-110" src={clickedImg} alt="bigger pic" />
         <span className="dismiss" onClick={handleClick}>
           X
         </span>
