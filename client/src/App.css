@@ -4,7 +4,9 @@
   /* make it at least .1 so the animation still works */
   --calc: calc(20 / 20);
   --width: var(--calc) * 100;
-  --statusbar: rgb(0, 255, 76);
+  /* rgb(0, 255, 76) for green */
+  /* rgb(0, 102, 255) for blue */
+  --statusbar: rgb(0, 102, 255);
 }
 
 html {
