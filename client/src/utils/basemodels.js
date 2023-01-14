@@ -102,10 +102,24 @@ const data = [
     collage: [
       {
         id: 1,
-        src: require("../images/BEAN.webp"),
-        src2: require("../images/BEAN.png"),
-        alt: "bean",
-        title: "Bean Change",
+        src: require("../images/ero_face.webp"),
+        src2: require("../images/ero_face.png"),
+        alt: "ero_face",
+        title: "Erochi's face!",
+      },
+      {
+        id: 2,
+        src: require("../images/ero_side.webp"),
+        src2: require("../images/ero_side.png"),
+        alt: "ero_side",
+        title: "Side pose",
+      },
+      {
+        id: 3,
+        src: require("../images/ero_rear.webp"),
+        src2: require("../images/ero_rear.png"),
+        alt: "ero_rear",
+        title: "Rear pose ;)",
       },
     ],
     modifications: [
