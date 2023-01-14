@@ -12,12 +12,19 @@ const Modal = ({
       setincoming(null); //needed to let the useEffect know that the incoming image has changed so it can update
     }
   };
+  const checkShadow = (shadow) => {
+    if (!shadow) {
+      return "shadow-teal-500/50";
+    } else return shadow;
+  };
 
   return (
     <>
       <div className="overlay dismiss" onClick={handleClick}>
         <img
-          className={`rounded scale-110 shadow-xl ${setShadowImage}`}
+          className={`rounded scale-110 shadow-xl ${checkShadow(
+            setShadowImage
+          )}`}
           src={clickedImg}
           alt="bigger pic"
         />
