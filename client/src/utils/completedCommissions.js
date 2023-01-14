@@ -138,6 +138,22 @@ const data = [
       },
     ],
   },
+  {
+    id: 4,
+    name: "DawnStar",
+    images: [
+      {
+        id: 1,
+        name: "DawnStar",
+        src: require("../images/DawnStar-1920_1080.webp"),
+        src: require("../images/DawnStar-1920_1080.png"),
+        description: "Render",
+        color: "text-orange-400",
+        shadow: "shadow-orange-400/50",
+        alt: "DawnStar Render",
+      },
+    ],
+  },
 ];
 
 export default data;
