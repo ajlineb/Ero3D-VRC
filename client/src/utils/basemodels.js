@@ -74,10 +74,24 @@ const data = [
     collage: [
       {
         id: 1,
-        src: require("../images/BEAN.webp"),
-        src2: require("../images/BEAN.png"),
-        alt: "bean",
-        title: "Bean Change",
+        src: require("../images/hyenid_face.webp"),
+        src2: require("../images/hyenid_face.png"),
+        alt: "hyenid_face",
+        title: "Rawwwr!",
+      },
+      {
+        id: 2,
+        src: require("../images/hyenid_side.webp"),
+        src2: require("../images/hyenid_side.png"),
+        alt: "hyenid_side",
+        title: "Side pose",
+      },
+      {
+        id: 3,
+        src: require("../images/hyenid_side2.webp"),
+        src2: require("../images/hyenid_side2.png"),
+        alt: "Alt hyenid_side",
+        title: "Alt Side pose",
       },
     ],
     modifications: [
@@ -116,8 +130,8 @@ const data = [
       },
       {
         id: 3,
-        src: require("../images/ero_rear.webp"),
-        src2: require("../images/ero_rear.png"),
+        src: require("../images/ero_booty.webp"),
+        src2: require("../images/ero_booty.png"),
         alt: "ero_rear",
         title: "Rear pose ;)",
       },
