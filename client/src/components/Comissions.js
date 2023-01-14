@@ -56,7 +56,7 @@ export default function Comissions(props) {
                 <source srcSet={image.src} type="image/webp"></source>
                 <source srcSet={image.src2} type="image/webp"></source>
                 <img
-                  className={`pointer object-cover h-4/5 w-96 rounded-lg shadow-xl ${image.shadow} hover:scale-105 duration-300`}
+                  className={`pointer object-cover h-72 w-96 rounded-lg shadow-xl ${image.shadow} hover:scale-105 duration-300`}
                   src={image.src2}
                   alt={image.alt}
                   onClick={() => handleClick(image, image.id)}
