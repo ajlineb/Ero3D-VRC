@@ -23,15 +23,15 @@ const data = [
         id: 2,
         src: require("../images/LargerStompers2.PNG"),
         src2: require("../images/LargerStompers2.PNG"),
-        alt: "feet",
-        title: "Feet Changes",
+        alt: "paws",
+        title: "Paw Changes",
       },
       {
         id: 3,
         src: require("../images/BoobComp.PNG"),
         src2: require("../images/BoobComp.PNG"),
-        alt: "boobs",
-        title: "Boob Reworks",
+        alt: "breast",
+        title: "Breast Reworks",
       },
       {
         id: 4,
@@ -64,53 +64,6 @@ const data = [
   },
   {
     id: 2,
-    name: "DawnyTwinz",
-    description: "DawnyTwinz",
-    authorName: "EroForce",
-    imageUrl:
-      "https://api.vrchat.cloud/api/1/file/file_35610cf9-fb6a-4098-b41d-162a8fe588d5/1/file",
-    thumbnailImageUrl:
-      "https://api.vrchat.cloud/api/1/image/file_35610cf9-fb6a-4098-b41d-162a8fe588d5/1/256",
-    collage: [
-      {
-        id: 1,
-        src: require("../images/BEAN.webp"),
-        src2: require("../images/BEAN.png"),
-        alt: "bean",
-        title: "Bean Change",
-      },
-    ],
-    modifications: ["Texture/color change"],
-    baseUsed: "Deira",
-  },
-  {
-    id: 3,
-    name: "Naaa_EroChi",
-    description: "Naaa_EroChi",
-    authorName: "EroForce",
-    imageUrl:
-      "https://api.vrchat.cloud/api/1/file/file_760b861f-34aa-4f91-8a33-bf5e3cdba2e8/1/file",
-    thumbnailImageUrl:
-      "https://api.vrchat.cloud/api/1/image/file_760b861f-34aa-4f91-8a33-bf5e3cdba2e8/1/256",
-    collage: [
-      {
-        id: 1,
-        src: require("../images/BEAN.webp"),
-        src2: require("../images/BEAN.png"),
-        alt: "bean",
-        title: "Bean Change",
-      },
-    ],
-    modifications: [
-      "Breasts were added. ",
-      "Remodeled/sculpted butt. ",
-      "Added bones for breast and butt including their weight paints. ",
-      "Added physics to the new bones. ",
-    ],
-    baseUsed: "Nanachi",
-  },
-  {
-    id: 4,
     name: "Hyenid",
     description: "Hyenid",
     authorName: "EroForce",
@@ -138,8 +91,8 @@ const data = [
     baseUsed: "Hyenid",
   },
   {
-    id: 5,
-    name: "Azura_Fox_Bikini",
+    id: 3,
+    name: "Azura Fox",
     description: "Azura_Fox_Bikini",
     authorName: "EroForce",
     imageUrl:
@@ -155,10 +108,18 @@ const data = [
         title: "Bean Change",
       },
     ],
+    modifications: [
+      "Breast Changes, ",
+      "Resculpted body, ",
+      "Thigh physics, ",
+      "retextures, ",
+      "Weight paint fixes. ",
+    ],
+    baseUsed: "EroChi",
   },
   {
-    id: 6,
-    name: "Silent_Femboi",
+    id: 4,
+    name: "Silent Femboi",
     description: "Silent_Femboi",
     authorName: "EroForce",
     imageUrl:
@@ -176,8 +137,8 @@ const data = [
     ],
   },
   {
-    id: 7,
-    name: "Femboy_EroChi_Skirt",
+    id: 5,
+    name: "Femboy EroCh Skirt",
     description: "Femboy_EroChi_Skirt",
     authorName: "EroForce",
     imageUrl:

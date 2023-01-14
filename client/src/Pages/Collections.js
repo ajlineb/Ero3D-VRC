@@ -64,7 +64,7 @@ export default function Collections() {
             <source srcSet={pic.src} type="image/webp"></source>
             <source srcSet={pic.src2} type="image/webp"></source>
             <img
-              className="w-full rounded-t-md pointer"
+              className="w-full rounded-t-md pointer object-cover h-60"
               src={pic.src2}
               alt={pic.alt}
               onClick={() => handleClick(pic, index)}
