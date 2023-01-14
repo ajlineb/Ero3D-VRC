@@ -11,7 +11,7 @@ export default function Comissions(props) {
   //this handles wich image is clicked on
   const handleClick = (pic, index) => {
     props.clickedImg2(pic.src);
-    props.clickedImg2Shadow(pic.shadow);
+    props.clickedImg2Shadow(pic.shadow); //sends the shadow color of the image clicked
   };
 
   //these handle the left and right click buttons

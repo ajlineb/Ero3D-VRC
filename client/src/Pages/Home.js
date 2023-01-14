@@ -14,7 +14,7 @@ export default function Home() {
 
   //handles image lightbox
   const [clickedImg, setClickedImg] = useState();
-  const [shadow, setShadow] = useState();
+  const [shadow, setShadow] = useState(); //sets the clicked images shadow/themed color returned from Comissions page
   const [incoming, setIncoming] = useState();
 
   useEffect(() => {
