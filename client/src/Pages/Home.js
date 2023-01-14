@@ -14,6 +14,7 @@ export default function Home() {
 
   //handles image lightbox
   const [clickedImg, setClickedImg] = useState();
+  const [shadow, setShadow] = useState();
   const [incoming, setIncoming] = useState();
 
   useEffect(() => {
@@ -64,7 +65,7 @@ export default function Home() {
         </div>
         <div className="centerInfo container">
           <h2 className="subtitle">Completed Commisions!</h2>
-          <Comissions clickedImg2={setIncoming} />
+          <Comissions clickedImg2={setIncoming} clickedImg2Shadow={setShadow} />
         </div>
         <div className="rightInfo container">
           <h2 className="subtitle">Items By Me!</h2>
@@ -83,6 +84,7 @@ export default function Home() {
             clickedImg={incoming}
             setClickedImg={setClickedImg}
             setincoming={setIncoming}
+            setShadowImage={shadow}
           />
         )}
       </div>

@@ -2,6 +2,7 @@ const Modal = ({
   clickedImg,
   setClickedImg,
   setincoming,
+  setShadowImage,
   handelRotationRight,
   handelRotationLeft,
 }) => {
@@ -15,7 +16,11 @@ const Modal = ({
   return (
     <>
       <div className="overlay dismiss" onClick={handleClick}>
-        <img className="rounded scale-110" src={clickedImg} alt="bigger pic" />
+        <img
+          className={`rounded scale-110 shadow-xl ${setShadowImage}`}
+          src={clickedImg}
+          alt="bigger pic"
+        />
         <span className="dismiss" onClick={handleClick}>
           X
         </span>
