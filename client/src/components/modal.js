@@ -12,6 +12,8 @@ const Modal = ({
       setincoming(null); //needed to let the useEffect know that the incoming image has changed so it can update
     }
   };
+
+  //this function checks if there is a setshadowimage value (meaning its a comm image being enlarged), if none it sets it to the defualt site themed color
   const checkShadow = (shadow) => {
     if (!shadow) {
       return "shadow-teal-500/50";
