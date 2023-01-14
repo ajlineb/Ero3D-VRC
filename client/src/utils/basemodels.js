@@ -190,10 +190,10 @@ const data = [
     collage: [
       {
         id: 1,
-        src: require("../images/BEAN.webp"),
-        src2: require("../images/BEAN.png"),
-        alt: "bean",
-        title: "Bean Change",
+        src: require("../images/erofem.webp"),
+        src2: require("../images/erofem.png"),
+        alt: "femboy erochi",
+        title: "Femboy Erochi",
       },
     ],
   },
