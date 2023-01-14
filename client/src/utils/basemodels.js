@@ -177,6 +177,14 @@ const data = [
         title: "Silent rear pose",
       },
     ],
+    modifications: [
+      "Resculpted the booty, ",
+      "Resculpted the thighs, ",
+      "Added bones to the butt and thighs, ",
+      "Retextured for Silent, ",
+      "Custom hoodie.",
+    ],
+    baseUsed: "EroChi",
   },
   {
     id: 5,
@@ -196,6 +204,14 @@ const data = [
         title: "Femboy Erochi",
       },
     ],
+    modifications: [
+      "Resculpted the booty, ",
+      "Resculpted the thighs, ",
+      "Added bones to the butt and thighs, ",
+      "Retextured to Ero, ",
+      "Added outfits.",
+    ],
+    baseUsed: "EroChi",
   },
 ];
 
