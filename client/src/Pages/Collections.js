@@ -121,7 +121,7 @@ export default function Collections() {
                         <span className="text-cyan-500 font-semibold">
                           Base Used:{" "}
                         </span>
-                        <span font-semibold>{d.baseUsed}</span>
+                        <span className="font-semibold">{d.baseUsed}</span>
                       </p>
                     </div>
                   </div>

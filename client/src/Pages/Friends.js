@@ -18,7 +18,10 @@ export default function Friends() {
         shadow = "shadow-cyan-500/50";
       }
       return (
-        <div className="grid grid-cols-2 lg:grid-cols-2 gap-0 lg:gap-0 pb-10 ">
+        <div
+          key={d.id.toString()}
+          className="grid grid-cols-2 lg:grid-cols-2 gap-0 lg:gap-0 pb-10 "
+        >
           <div
             className={`rounded-l-md p-3 flex justify-center items-center ${bg}`}
           >

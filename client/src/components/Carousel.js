@@ -14,7 +14,7 @@ export default function Carousel({ data }) {
     return data.map((author, index) => {
       return (
         <div
-          key={author.id.toString()}
+          key={author.avatarName.toString()}
           className="pb-10 mb-10 bg-gradient-to-br from-indigo-500 to-teal-500 shadow-lg shadow-indigo-500/50 rounded-md"
         >
           <div>

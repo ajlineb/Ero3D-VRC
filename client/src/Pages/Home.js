@@ -43,20 +43,33 @@ export default function Home() {
               } else return "text-yellow-400";
             };
             return (
-              <>
-                <p key={comm.id.toString()}>
-                  <span className={`italic font-bold ${comm.color}`}>
+              <div key={comm.id.toString()}>
+                {/* had to have a key on just about every new child to make this work */}
+                <p>
+                  <span
+                    key={comm.color.toString()}
+                    className={`italic font-bold ${comm.color}`}
+                  >
                     {comm.name}
                   </span>{" "}
-                  <span className={`font-bold ${isDone(comm.complete)}`}>
+                  <span
+                    key={comm.name.toString()}
+                    className={`font-bold ${isDone(comm.complete)}`}
+                  >
                     {comm.complete !== null ? (
-                      <>{comm.complete ? <>Complete!</> : <>In Progress!</>}</>
+                      <>
+                        {comm.complete ? (
+                          <span key={comm.id.toString()}>Complete!</span>
+                        ) : (
+                          <span key={comm.id.toString()}>In Progress!</span>
+                        )}
+                      </>
                     ) : (
                       <>In Queue</>
                     )}
                   </span>
                 </p>
-              </>
+              </div>
             );
           })}
         </div>
