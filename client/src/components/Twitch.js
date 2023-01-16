@@ -12,7 +12,7 @@ export default function Twitch(props) {
       height={props.height}
       width={props.width}
       title="EroForce Twitch"
-      allowfullscreen
+      allowFullScreen
     ></iframe>
   );
 }
