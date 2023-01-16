@@ -56,12 +56,11 @@ function Navbar(props) {
             </button>
             <ul className={`menuNav ${navbarOpen ? "showMenu" : ""} `}>
               {tabs.map((tab) => (
-                <li className="text-xl pt-5 pb-5">
+                <li key={tab.toString()} className="text-xl pt-5 pb-5">
                   <Link
+                    key={tab.toString()}
                     to={tab}
-                    key={tab.id}
                     onClick={() => {
-                      //console.log(path[4]);
                       setActive(tab);
                       closeMenu();
                     }}
@@ -82,10 +81,10 @@ function Navbar(props) {
         <nav>
           <ul className="nav-container">
             {tabs.map((tab) => (
-              <li className="navs">
+              <li key={tab.toString()} className="navs">
                 <Link
                   to={tab}
-                  key={tab.id}
+                  key={tab.toString()}
                   onClick={() => {
                     //console.log(path[4]);
                     setActive(tab);
