@@ -14,21 +14,21 @@ const data = [
     collage: [
       {
         id: 1,
-        src: require("../images/LargerStompers.PNG"),
+        src: require("../images/LargerStompers.webp"),
         src2: require("../images/LargerStompers.PNG"),
         alt: "bean",
         title: "Bean changes",
       },
       {
         id: 2,
-        src: require("../images/LargerStompers2.PNG"),
+        src: require("../images/LargerStompers2.webp"),
         src2: require("../images/LargerStompers2.PNG"),
         alt: "paws",
         title: "Paw changes",
       },
       {
         id: 3,
-        src: require("../images/BoobComp.PNG"),
+        src: require("../images/BoobComp.webp"),
         src2: require("../images/BoobComp.PNG"),
         alt: "breast",
         title: "Breast reworks",
@@ -42,14 +42,14 @@ const data = [
       },
       {
         id: 5,
-        src: require("../images/Final_Diera.png"),
+        src: require("../images/Final_Diera.webp"),
         src2: require("../images/Final_Diera.png"),
         alt: "clothing changes",
         title: "Finished/Front",
       },
       {
         id: 6,
-        src: require("../images/Final_Diera2.png"),
+        src: require("../images/Final_Diera2.webp"),
         src2: require("../images/Final_Diera2.png"),
         alt: "clothing changes",
         title: "Finished/Back",
