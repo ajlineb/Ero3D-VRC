@@ -44,11 +44,8 @@ export default function Home() {
             };
             return (
               <>
-                <p>
-                  <span
-                    key={comm.id}
-                    className={`italic font-bold ${comm.color}`}
-                  >
+                <p key={comm.id.toString()}>
+                  <span className={`italic font-bold ${comm.color}`}>
                     {comm.name}
                   </span>{" "}
                   <span className={`font-bold ${isDone(comm.complete)}`}>

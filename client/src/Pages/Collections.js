@@ -92,7 +92,7 @@ export default function Collections() {
             {/* for displaying each avatar, its images, and text about them */}
             {data.map((d) => {
               return (
-                <div className="py-5">
+                <div key={d.id.toString()} className="py-5">
                   <div className="grid grid-cols-2 lg:grid-cols-2 gap-2 lg:gap-2 pb-5">
                     <div>
                       <img
@@ -177,7 +177,7 @@ export default function Collections() {
                   <td className="border border-slate-500 bg-indigo-300 p-2">
                     Avatar Physical Changes
                   </td>
-                  <td class="border border-slate-500 bg-indigo-800 p-1">
+                  <td className="border border-slate-500 bg-indigo-800 p-1">
                     $30.00
                   </td>
                 </tr>

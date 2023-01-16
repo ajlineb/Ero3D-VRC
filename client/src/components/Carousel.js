@@ -13,7 +13,10 @@ export default function Carousel({ data }) {
     l = length;
     return data.map((author, index) => {
       return (
-        <div className="pb-10 mb-10 bg-gradient-to-br from-indigo-500 to-teal-500 shadow-lg shadow-indigo-500/50 rounded-md">
+        <div
+          key={author.id.toString()}
+          className="pb-10 mb-10 bg-gradient-to-br from-indigo-500 to-teal-500 shadow-lg shadow-indigo-500/50 rounded-md"
+        >
           <div>
             <h1 className="text-xl">{author.avatarName}</h1>
             <p className="text-sm">{author.author}</p>
