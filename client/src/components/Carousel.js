@@ -18,7 +18,7 @@ export default function Carousel({ data }) {
             <h1 className="text-xl">{author.avatarName}</h1>
             <p className="text-sm">{author.author}</p>
           </div>
-          <a href={author.url}>
+          <a href={author.url} target="_gumroad">
             <div
               id={`carouselExampleIndicators${index}`}
               class="carousel slide relative space-x-4"
