@@ -26,7 +26,7 @@ const data = [
   {
     id: 5,
     name: "AtlasTheDrunk",
-    complete: false,
+    complete: true,
     color: "text-pink-600",
   },
   {
