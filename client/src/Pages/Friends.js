@@ -88,7 +88,7 @@ export default function Friends() {
           <p className="text-justify">
             As a side note I even develop websites from frontend to backend
             server development. If you would like to hangout and chat in VRChat
-            just send a DM to EroForce on Discord!
+            just send a DM to EroForce#7936 on Discord!
           </p>
         </div>
       </div>
