@@ -188,7 +188,7 @@ const data = [
   },
   {
     id: 5,
-    name: "Femboy EroCh Skirt",
+    name: "Femboy EroChi Skirt",
     description: "Femboy_EroChi_Skirt",
     authorName: "EroForce",
     imageUrl:
