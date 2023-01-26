@@ -7,7 +7,7 @@
   /* rgb(0, 255, 76) for green */
   /* rgb(0, 102, 255) for blue */
   /* rgb(168, 168, 168) for grey */
-  --statusbar: rgb(168, 168, 168);
+  --statusbar: rgb(0, 255, 76);
 }
 
 html {
