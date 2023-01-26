@@ -32,7 +32,7 @@ const data = [
   {
     id: 6,
     name: "Wafflecat",
-    complete: null,
+    complete: false,
     color: "text-yellow-200",
   },
   {
