@@ -7,8 +7,8 @@ export default function Status() {
     <div className="m-auto pt-2">
       <p className="pb-2 text-center font-black">Current Commission Progress</p>
       <div className="progress-bar text-center text-xs pt-1">
-        Taking Break! (Thursday starting back 01/26)
-        {/* Bug/Error Fix Stage || 0 of 20 complete || Taking Break! || COMPLETE!  */}
+        0 of 20 complete
+        {/* Bug/Error Fix Stage || 0 of 20 complete || Taking Break! (*day* starting back 00/00 || COMPLETE!  */}
       </div>
     </div>
   );
