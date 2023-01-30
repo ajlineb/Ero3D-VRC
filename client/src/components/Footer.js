@@ -26,7 +26,7 @@ export default function Footer() {
           Created By "EroForce" with ❤️{" "}
           <a href="https://github.com/ajlineb/ero3d-vrc">
             {" "}
-            <span className="source-code">Source Code</span>
+            {/* <span className="source-code">Source Code</span> */}
           </a>
         </p>
         <p className="closing">
