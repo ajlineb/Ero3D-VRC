@@ -24,15 +24,14 @@ export default function Footer() {
       <div>
         <p className="closing">
           Created By "EroForce" with ❤️{" "}
-          <a href="https://github.com/ajlineb/ero3d-vrc">
-            {" "}
-            {/* <span className="source-code">Source Code</span> */}
-          </a>
+          {/* <a href="https://github.com/ajlineb/ero3d-vrc"> */}{" "}
+          {/* <span className="source-code">Source Code</span> */}
+          {/* </a> */}
         </p>
         <p className="closing">
           © 2022 - 2023 <br></br>
           <span className="text-xs italic text-slate-400">
-            Last Updated: 01/26/2023 5:11 am EST
+            Last Updated: 01/30/2023 6:39 pm EST
           </span>
         </p>
       </div>
