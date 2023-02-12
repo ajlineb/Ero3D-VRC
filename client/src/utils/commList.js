@@ -37,27 +37,27 @@ const data = [
   },
   {
     id: 7,
-    name: "FoxyRam",
-    complete: null,
-    color: "text-pink-400",
-  },
-  {
-    id: 8,
     name: "PjBomb",
     complete: null,
     color: "text-purple-600",
   },
   {
-    id: 9,
+    id: 8,
     name: "MightyKamina",
     complete: null,
     color: "text-blue-500",
   },
   {
-    id: 10,
+    id: 9,
     name: "Griffen",
     complete: null,
     color: "text-pink-500",
+  },
+  {
+    id: 10,
+    name: "FoxyRam",
+    complete: null,
+    color: "text-pink-400",
   },
 ];
 
