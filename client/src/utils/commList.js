@@ -53,6 +53,12 @@ const data = [
     complete: null,
     color: "text-blue-500",
   },
+  {
+    id: 10,
+    name: "Griffen",
+    complete: null,
+    color: "text-pink-500",
+  },
 ];
 
 export default data;
