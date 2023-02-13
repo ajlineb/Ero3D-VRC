@@ -38,7 +38,7 @@ const data = [
   {
     id: 7,
     name: "PjBomb",
-    complete: null,
+    complete: false,
     color: "text-purple-600",
   },
   {
